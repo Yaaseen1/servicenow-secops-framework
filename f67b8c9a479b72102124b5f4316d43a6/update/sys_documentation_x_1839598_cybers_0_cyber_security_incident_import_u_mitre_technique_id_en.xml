@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_mitre_technique_id" label="mitre_technique_id" language="en" table="x_1839598_cybers_0_cyber_security_incident_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_mitre_technique_id</element>
+            <help/>
+            <hint/>
+            <label>mitre_technique_id</label>
+            <language>en</language>
+            <name>x_1839598_cybers_0_cyber_security_incident_import</name>
+            <plural>mitre_technique_ids</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-02 06:26:29</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>mitre_technique_id</sys_name>
+            <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+            <sys_update_name>sys_documentation_x_1839598_cybers_0_cyber_security_incident_import_u_mitre_technique_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-02 06:26:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

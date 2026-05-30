@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="sn_ihub_target_state">4883201e475f72102124b5f4316d43fe</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-28 08:46:39</sys_created_on>
+        <sys_id>9483601e475f72102124b5f4316d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Cyber Security Incident Data Mapping_etl_ihub">24e2289a475f72102124b5f4316d43f7</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="IHUB_TEMP_TARGET_MAPPING">d883601e475f72102124b5f4316d4357</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_9483601e475f72102124b5f4316d4378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-28 08:46:39</sys_updated_on>
+        <target_sys_rte_eb_field display_value="State">0de26c9a475f72102124b5f4316d43d8</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

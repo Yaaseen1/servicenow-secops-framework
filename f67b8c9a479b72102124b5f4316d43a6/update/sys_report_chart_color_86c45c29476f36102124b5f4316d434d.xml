@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="INSERT_OR_UPDATE">
+        <color/>
+        <color_name display_value="Teal">65b303bda9fe3dba01032e9ef6d21d1f</color_name>
+        <display>background-color:#008080</display>
+        <element>attack_type</element>
+        <name>x_1839598_cybers_0_cyber_security_incident</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-10 10:02:35</sys_created_on>
+        <sys_id>86c45c29476f36102124b5f4316d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1839598_cybers_0_cyber_security_incident</sys_name>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name>sys_report_chart_color_86c45c29476f36102124b5f4316d434d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-10 10:02:35</sys_updated_on>
+        <value>insider_threat</value>
+    </sys_report_chart_color>
+</record_update>

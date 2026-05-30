@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_u_priority">
+    <dl_u_priority action="DELETE">
+        <active>true</active>
+        <impact>2</impact>
+        <order>400</order>
+        <priority>2</priority>
+        <sys_class_name>dl_u_priority</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 17:08:11</sys_created_on>
+        <sys_id>09c8896547bc43102124b5f4316d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>400</sys_name>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name>dl_u_priority_09c8896547bc43102124b5f4316d43d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 17:08:11</sys_updated_on>
+        <urgency>1</urgency>
+    </dl_u_priority>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</application>
+        <file_path/>
+        <instance_id>1f66dd39eb70ee1056eafddacad0cd43</instance_id>
+        <instance_name>dev323553</instance_name>
+        <name>dl_u_priority_09c8896547bc43102124b5f4316d43d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_u_priority"><dl_u_priority action="INSERT_OR_UPDATE"><active>true</active><impact>2</impact><order>400</order><priority>2</priority><sys_class_name>dl_u_priority</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-11 17:08:11</sys_created_on><sys_id>09c8896547bc43102124b5f4316d43d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>400</sys_name><sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package><sys_policy/><sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope><sys_update_name>dl_u_priority_09c8896547bc43102124b5f4316d43d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-11 17:08:11</sys_updated_on><urgency>1</urgency></dl_u_priority></record_update>]]></payload>
+        <payload_hash>713492433</payload_hash>
+        <record_name>400</record_name>
+        <reverted_from/>
+        <source>477b8c9a479b72102124b5f4316d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 17:08:11</sys_created_on>
+        <sys_id>8dc8896547bc43102124b5f4316d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e1802b7190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 17:08:11</sys_updated_on>
+        <type>Priority Data Lookup</type>
+        <update_guid>4dc889657abc43106640e0cd3b48e4d6</update_guid>
+        <update_guid_history>4dc889657abc43106640e0cd3b48e4d6:713492433</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="400">e1b3d6ed47f483102124b5f4316d43e5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 22:35:38</sys_created_on>
+        <sys_db_object display_value="" name="dl_u_priority">dl_u_priority</sys_db_object>
+        <sys_id>1615bc034e4f43c084cf19f1ddf46891</sys_id>
+        <sys_metadata>09c8896547bc43102124b5f4316d43d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>400</sys_name>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_scope_delete display_value="">61bdd6cbff3d4ae09d3f6c119e68cb71</sys_scope_delete>
+        <sys_update_name>dl_u_priority_09c8896547bc43102124b5f4316d43d3</sys_update_name>
+        <sys_update_version display_value="dl_u_priority_09c8896547bc43102124b5f4316d43d3">8dc8896547bc43102124b5f4316d43d7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 22:35:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

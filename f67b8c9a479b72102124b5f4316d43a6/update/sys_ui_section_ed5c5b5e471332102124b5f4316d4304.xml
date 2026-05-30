@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Resolution Details" section_id="ed5c5b5e471332102124b5f4316d4304" sys_domain="global" table="x_1839598_cybers_0_cyber_security_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-15 06:52:40</sys_created_on>
+            <sys_id>70495943476f3a102124b5f4316d43d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Details" display_value="Resolution Details" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">ed5c5b5e471332102124b5f4316d4304</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-15 06:52:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-15 06:52:40</sys_created_on>
+            <sys_id>f4495943476f3a102124b5f4316d43d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Details" display_value="Resolution Details" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">ed5c5b5e471332102124b5f4316d4304</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-15 06:52:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_closure_duration</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-15 06:52:40</sys_created_on>
+            <sys_id>b0495943476f3a102124b5f4316d43d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Details" display_value="Resolution Details" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">ed5c5b5e471332102124b5f4316d4304</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-15 06:52:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_by</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-15 06:52:40</sys_created_on>
+            <sys_id>7c495943476f3a102124b5f4316d43d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Details" display_value="Resolution Details" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">ed5c5b5e471332102124b5f4316d4304</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-15 06:52:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_duration</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-15 06:52:40</sys_created_on>
+            <sys_id>38495943476f3a102124b5f4316d43d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Details" display_value="Resolution Details" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">ed5c5b5e471332102124b5f4316d4304</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-15 06:52:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Resolution Details</caption>
+            <header>false</header>
+            <name>x_1839598_cybers_0_cyber_security_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-28 22:14:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed5c5b5e471332102124b5f4316d4304</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1839598_cybers_0_cyber_security_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+            <sys_update_name>sys_ui_section_ed5c5b5e471332102124b5f4316d4304</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-28 22:14:11</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

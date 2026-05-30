@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Line">18ac962264404bcc0039359d184b15f3</macroponent>
+        <name>Incident Detection Trend (Last 90 Days)</name>
+        <properties>{"applyDateRange":false,"bareBorder":false,"chartVariation":"stacked","configVersion":"23.0.0-ci-SNAPSHOT","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"detected_at&gt;=javascript:gs.beginningOfLast3Months()","id":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyOTY0Njc0MTI4Nzk1NTk5ODguNDA2MDEzMDY=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1839598_cybers_0_cyber_security_incident"}],"dateFormat":"default","disableTooltip":false,"emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"extensionType":"line","filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyOTY0Njc0MTI4Nzk1NTk5ODguNDA2MDEzMDY=","groupByField":"attack_type","isChoice":true,"isPaBucket":false,"isRange":false,"metric":"ZEdGaWJHVjRYekU0TXprMU9UaGZZM2xpWlhKelh6QmZZM2xpWlhKZmMyVmpkWEpwZEhsZmFXNWphV1JsYm5ReE56Y3lPVFkwTmpjME1USTROemsxTlRrNU9EZ3VOREEyTURFek1EWT0xNzcyOTY0Njc0MTI5ODYzNTMwMjYuNDI0MDEyMzM="}],"hideZeroValues":false,"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headerTitle":"Incident Detection Trend (Last 90 Days)","hideMatrixAggregate":false,"hideYAxis0":false,"hideYAxis1":true,"hideYAxis2":true,"hideYAxis3":true,"hideYAxis4":true,"legendExpandToFit":true,"legendHorizontalAlignment":"center","legendPosition":"bottom","lineStrokeWidth":"2","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyOTY0Njc0MTI4Nzk1NTk5ODguNDA2MDEzMDY=","id":"ZEdGaWJHVjRYekU0TXprMU9UaGZZM2xpWlhKelh6QmZZM2xpWlhKZmMyVmpkWEpwZEhsZmFXNWphV1JsYm5ReE56Y3lPVFkwTmpjME1USTROemsxTlRrNU9EZ3VOREEyTURFek1EWT0xNzcyOTY0Njc0MTI5ODYzNTMwMjYuNDI0MDEyMzM=","transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}],"numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2.0,"refreshFrequency":false,"scoreType":"latest","showBorder":true,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showHeader":true,"showHeaderSeparator":false,"showLegend":true,"showLegendValue":false,"showSecondGroupAggregate":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showContinuousLine":true,"enableAddZerosAtApi":true,"showMarkers":false,"showTrend":false,"showXGrid":false,"showYGrid":true,"sortBy":"value","sortByOrder":"desc","telemetry":"null","trendBy":{"trendByFields":[{"field":"detected_at","metric":"ZEdGaWJHVjRYekU0TXprMU9UaGZZM2xpWlhKelh6QmZZM2xpWlhKZmMyVmpkWEpwZEhsZmFXNWphV1JsYm5ReE56Y3lPVFkwTmpjME1USTROemsxTlRrNU9EZ3VOREEyTURFek1EWT0xNzcyOTY0Njc0MTI5ODYzNTMwMjYuNDI0MDEyMzM="}],"trendByFrequency":"dayOfWeek"},"wrapTitle":false,"yAxis0Position":"left","showDataTable":false,"colorConfig":{"type":"default"}}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-08 09:37:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3f04e637b3b7aedc4e1e955180d9b71</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Incident Detection Trend (Last 90 Days)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name>par_visualization_e3f04e637b3b7aedc4e1e955180d9b71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-08 10:11:14</sys_updated_on>
+        <type>Line</type>
+    </par_visualization>
+</record_update>

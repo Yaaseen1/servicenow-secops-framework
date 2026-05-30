@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1066184000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>gemini_incident_triage</internal_name>
+        <label_cache>[{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.gemini_analysis","label":"1 - Analyze Incident with Gemini➛Gemini Analysis","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["work_notes"],"689b4add-0488-4938-a9be-665ab75b1d56":[null],"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c1cd7ea1-7d83-47c3-becc-bd55241dc477"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Cyber Security Incident Record","reference":"x_1839598_cybers_0_cyber_security_incident","reference_display":"Cyber Security Incident","type":"reference","base_type":"reference","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["record"],"689b4add-0488-4938-a9be-665ab75b1d56":["record"]},"attributes":{}},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Cyber Security Incident Record➛Short Description","reference":"","reference_display":"Short Description","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"short_description","usedInstances":{"9638ac49-0ffc-44c2-8042-8bf451dfc008":["short_description"]}},{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Cyber Security Incident Record➛Opened By","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"opened_by","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_to"]}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Cyber Security Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"number","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_subject"]}},{"name":"Created_1.current.cmdb_ci","label":"Trigger - Record Created➛Cyber Security Incident Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"cmdb_ci","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["record"]}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.__action_status__.message","label":"1 - Analyze Incident with Gemini➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{}}]</label_cache>
+        <master_snapshot>5c1dac7e472007102124b5f4316d43d6</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Gemini Incident Triage</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>0cf3cd3047b047502124b5f4316d43ad</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 00:41:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38c0a934472043502124b5f4316d435d</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Gemini Incident Triage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name>sys_hub_flow_38c0a934472043502124b5f4316d435d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:39</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>d4f3017047b047502124b5f4316d4340</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=38c0a934472043502124b5f4316d435d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=38c0a934472043502124b5f4316d435d"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1839598_cybers_0_cyber_security_incident">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-09 08:51:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0cf3cd3047b047502124b5f4316d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:39</sys_updated_on>
+        <table>x_1839598_cybers_0_cyber_security_incident</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>38c0a934472043502124b5f4316d435d</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-09 08:51:39</sys_created_on>
+        <sys_id>40f3cd3047b047502124b5f4316d43af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:39</sys_updated_on>
+        <trigger display_value="">0cf3cd3047b047502124b5f4316d43ad</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=38c0a934472043502124b5f4316d435d^sys_idNOT IN40f3cd3047b047502124b5f4316d43af"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=38c0a934472043502124b5f4316d435d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=38c0a934472043502124b5f4316d435d^sys_idNOT INf8c0a934472043502124b5f4316d4361"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>38c0a934472043502124b5f4316d435d</id>
+        <name>Gemini Incident Triage</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 00:41:53</sys_created_on>
+        <sys_id>f8c0a934472043502124b5f4316d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-27 00:41:53</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f8c0a934472043502124b5f4316d4361"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=38c0a934472043502124b5f4316d435d^sys_idNOT IN26c02d34472043502124b5f4316d4321,2ec02d34472043502124b5f4316d434f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</model>
+        <model_id>38c0a934472043502124b5f4316d435d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_38c0a934472043502124b5f4316d435d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 00:42:01</sys_created_on>
+        <sys_id>26c02d34472043502124b5f4316d4321</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-03 02:03:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=26c02d34472043502124b5f4316d4321"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</model>
+        <model_id>38c0a934472043502124b5f4316d435d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_38c0a934472043502124b5f4316d435d</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 00:42:01</sys_created_on>
+        <sys_id>2ec02d34472043502124b5f4316d434f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-03 02:03:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2ec02d34472043502124b5f4316d434f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=38c0a934472043502124b5f4316d435d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=38c0a934472043502124b5f4316d435d"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=38c0a934472043502124b5f4316d435d^sys_idNOT INe2c0e934472043502124b5f4316d435a"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 00:42:00</sys_created_on>
+        <sys_id>e2c0e934472043502124b5f4316d435a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:36</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYXW/bNhT9K4KeViAD9GHHVt5aJ8UCdA1mu9tDkAmURNrEaNKTKCVqkf++S33Ysj4cO1Y656k1SfGee3juuWTuf+gMeZjpV/oceQzrFzrlEoccsXm6xjAs1bDL0UrNrRAPkBRhql/JMMYXOgnFao5Xa4YkLCaIRTAowgCH+pV5oSeIxXiWRrcB7ATfZ9sUe+rFNPx+cs2x7QydseunHg4j18j/40bYj0MqU5dynwaYS/gooBGES/8svp2ohdqsWKjdbhf6S8qCEHP96v7hQl+jEIJLBexHbYoqdD7xkWNhw7dN27IMwxoPTO/S9kwrsBE2DNiwzlQtG9lC2JYK/CQxD3CwYanBZYhRcMdZulmxhKPIeVuhp4h+h93HhlpHMGD3cT63+ekWzOTD/lJQH9+tJRU8H8lx5pOCxSv+NcevOMUExUyWnMJIHMF+eK0gKxAFIjJbisdpGfAz5Vl2xSQTPmKbX0jKkHqxxJEinFAG1Ls5N5GIwwz99GZyN712//o4n/x2M3WnN7P59HYyv7nWn7O83H9jtWOOsMDi5uk8b4TwmWKmDpDHK1ACLI38kK7lR1/SpNTk88VW5xPBA5qx0tC6X05Fu1ovs98ndsPolLtfiVhK/u+bP5pazgeP0+3lJUIBRh269UhFt9XMW6DJFhKq2e1TcDFyiIQHhvE/ibiwrNdq+BFxGblSuCgI3ApLUPKwsUpRBJhdb+PBOF0sQPaUr2MZvSjqPLemsl/WdBhz2MLdnFBT2RmRG0a/0Ajw3UNdlmwVKZAvxY7TmGuCa+CqQJPU4KS1cnctw6nUQW5XaFFwTWaYYV9W5EG+RdVfv9MoonxRQb8Jno00o7O0CqG02VOCPvRZ1k3Sk1o+tfI+urZNkxAPE8sYqco2DdsjpjEyhogEtmH4VqW2m2A6UcqaJN6kxo+r8CgTIzvg9OsUF+CNajUcpN1kV/glCUoihZFM+oFm9gTNUtBqhmgf5YgbWebD17vq3Jdaz7cBFCQIvgjKHA/p9gc4IGHiEbz2Fe5HRIgXoYh5UHchtadG4d+dFT35nof8f/aH3a7QfimO7cO5eeCW9lK4iKc9uJ9NTM/BA2yA6dngd97QcTwfWYSMLkfYMmvut4XRiu1duN4Lx5606abLAVuVm7QJ/gjvOwFgwwePBni6AxbCbPW/fO59ON3jEnMXoIYuU17WMLwFg0dwOddvtTdCJ9v6PrXiydjxh+Zo5I/gHQMVTwbYQ+bAGiJndGmPh7WKb0DZB1O2MPNTXjdRGmVAOtzgWz51Xs/1t5RthKVU7ej4Lp2tR3mASr9UR6JlhiJCTdGp3W4XajMM3S973/bWtYVcNvo1hP4E4zuh1e3uq+C/tsDp8/XE4Xp/CDUdUM7tOlETSbLL+slPKjwYDx1it1sMcdosZgumG+bZXy8OlELSKaq2e8ahpZe0VnDnxeAVxVSTSfXGsOdK0xcpZu+kWG9Hin3yNaqsxc535GvAvqMWlt0rXt/HBMeuIK0+TYlW/NEQB5qXanKJgUwGN2UIpam4fXaO/MrbaGQwrBU3lv56lKK5nva10GBCC39K4m/TqGpS6PcFjIMRGg7tjvuwU38BtwF6Ae/Zt62jJZK0KW5v7zpu3/qerd2rUkG7ijiwL/WadXtzOi3r1vb0UtanN5597/cWFGfaUh7+A+Z7xW12HwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=38c0a934472043502124b5f4316d435d^sys_idNOT IN2e30c5b4477047502124b5f4316d435b,6012c93c477047502124b5f4316d4371,68eae07a472007102124b5f4316d430b,a32a2cf6472007102124b5f4316d43df"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-09 08:35:26</sys_created_on>
+        <sys_id>2e30c5b4477047502124b5f4316d435b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 00:30:44</sys_updated_on>
+        <ui_id>689b4add-0488-4938-a9be-665ab75b1d56</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2e30c5b4477047502124b5f4316d435b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-09 08:43:30</sys_created_on>
+        <sys_id>6012c93c477047502124b5f4316d4371</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 00:30:44</sys_updated_on>
+        <ui_id>f924e224-d93f-47bc-b77c-6f3d3aafc1a5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXWvbMBT9K0HPiZFjNyR5GwmFQddCO/rSdeZaklOBLHuS3DYz+e+7suU0tKVLoXsoy4PhfknnHJ8b37REcrIkqeA0XsQzlsRJMqV0Ok/jfJbk8ZQnIERMxkRDKbDTCFYZjvE9qMYn2nZlBDjBszhijTFCu4iVPM+Y3O2wj0tbK9heh3bMsDupOPaR5c3tmNRg8GQnDFm2z0rHQlOQC4WtlwO251jdtvYxr1hTIr5MDsmzMLkOldHXNVZwyMOJ6ZiIRyc0FwikAGXFmJSgObjKbMnSmQYTSJ5faLXdd9xJ7XqiJTxa+RtvTqnvKwQyY0GEfZgFgfp0sQYHV3gyc43Z61VJJmyvCRcFNMqtDnN9w0XtZKX7EQe5GqYr1ZT6vFeE7A84eB+NRRCi9jw98p5WcXVXPVwOIE+l7iQJFFXFQO0jcM7IvHEeTkuEEp3GJdS11JusNtW97IYRShltFAZRoaoHvNPKjY6AedwRqgrRKebXXfoajPQkvuExOLwbE7u1KwXWPlFBDbNfjUfSEwsUsk6FToKsc4IfZkbW7gtedS8C8N04mD8/ecthbPFkqIMznxYgmP2l1VeVLuSmMeD5jaQT5bvNfwS0wfzfu1f+OtTg/xe5s8PZ0XlfCO4/+TD3zz+T+wONT2//v5meTt/8Wz1wUudze2B4qa0DpTJ8usb+aChNePIT2XniIW7bxSyZA0sXE1oUbJKmbDqZ0xQfeZGexLxglM6jjSillhloUFsr7WsfjH982/v28QjVhn08lUJx+4qMwzKKEmk6kfWyPlvIUBxdh+L+k/RhWxnPaPf7RLv533yZbv8AEeMI3pgJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6012c93c477047502124b5f4316d4371"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 01:54:21</sys_created_on>
+        <sys_id>68eae07a472007102124b5f4316d430b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 00:30:44</sys_updated_on>
+        <ui_id>3086303a-246d-4007-9816-bd100397531f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5WfS5Q0aZX2bWqFhMRAgokXhizHvinWHCezHSCL+t93kzhtBYiBxAtaH6r6fuWc03vi25ZIQVYkARFGy2jB4yiOZ2E4S5MoW8RZNBMxA4jIlGhWAFYa4KUReH5gqu4Cbbs2wBwIGgW8Nga02+0wL6StFGtufBlG+L1UAvNkdXs3JRUzONGBIav2Weq9kBTLQGHp1YjpOUbXVN1ZlLwuEBeVY/Dcd258ZnK2wQw2dXCicErgyYEWgEBypixMScG0YK40DVk5U2MASYtLrZp9xb3UbiBasCcr/+CTk7CrywGZcS/C/ki9QEM43zDHrnEyd7XZ61VKDnbQREDOauXWx7Gh4LJystRDi2OZGrtLVRf6YlCE7Acc/R+1RRBQdTw75AOt/Pq+fLwaQZ5K3UviKaqSM7U/MeeMzGrXwWkJKOg1LlhVSb2llSkfZN+MUIpgq/AQ5Kp8xGdaudUB4x3uAFVlwSnGN334hhnZkfiOY7B5NyW2sWvFrD1QQQ3p77pDMhDzFGivQi8B7Teha+ZGVu4bPuoBPPDd1C99Nn9rw/jysFBHMw+L/0SjNF7OlynlTQbG0nD4QS2gD6RrqNRc9tq+cMO6K5xc+8LJ2aHwYyZ5B4XRJD/61XidkvfJi9j5ce/kYkh4l8w/zSXpV3KJp/HlbfIvc4SzN1+/R5vU+8EeGeOxNL+oLpHwzzoMY9G2y0WcMp4sT8I85ydJwmcnaZjgV5Yn80jkPAzTYAuF1JIyzVRjpX3tEvnEyR/z2TvUGH12KkEJ+4o8o8mgQEoO6CDXM6P55OTGJ/dX0qe5LVqE/ecLee6/uZnu/gJtZhnykAkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=68eae07a472007102124b5f4316d430b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Analyze Incident with Gemini">a8da6aa2475003102124b5f4316d43a4</action_type>
+        <action_type_parent display_value="Analyze Incident with Gemini">20ecb22e47c0c3102124b5f4316d43cb</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>a8da6aa2475003102124b5f4316d43a4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 01:51:16</sys_created_on>
+        <sys_id>a32a2cf6472007102124b5f4316d43df</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 00:30:44</sys_updated_on>
+        <ui_id>9638ac49-0ffc-44c2-8042-8bf451dfc008</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/5VSyW7bMBD9lYJnWZBs2XV8K2wEKNA2QJdcgkAYkUObAEUpXJy4gv+9Qy1OmwBFwtu82d57w7uOKcE2bM4FrADmxcdlli3ybJ7Pi2opi0W+EsUCgCXMQI1U6Q6N9aVAx61qvWoMpY6gQ8x13dYieBRlnvJgLRqfvqo/n6lDKNdqON2+u5EflBaUZ5u7+4S1YImVR8s23YvUW2VpqFBT6Y+47sPuH13/kexPbZ/yVpn9GH+ZRk1gY0WklicMnzwagcRJgnaYsBqMAN/Y0wUhA8SN0c/AQRlP01gsfnLqN+1bZ1kWKyWSTo5D9hKWo6sDLHfggagE7oMdS/mhURzd4JBACUH77d/YUHAzqOxbPFR66m50qM23wRR2GTAdkZDgiAS2UWrkPgqR5O3j94nltTK9K2NSNxz0JQJP3lXBRz4dC+rnC5sH5JXRqLGmjWUNbUtI2drmqPotRLpO95qCVOrmMV5R7U0KPCpM6QSQXhO+6+FbsCrK/UpjqDmu+2XUQ8DP8TMV6xW97Gq2zNeLWSGvVrP1UuIMMK8ErwTmXLBzwtzJbTU492wUXah8CFHmYNtoUDl4HFv6n/WJSB1x9OJ8/wf6bknZnAMAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a32a2cf6472007102124b5f4316d43df"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=38c0a934472043502124b5f4316d435d"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=38c0a934472043502124b5f4316d435d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=38c0a934472043502124b5f4316d435d^sys_idNOT IN7df1c53c477047502124b5f4316d433d"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>38c0a934472043502124b5f4316d435d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{9638ac49-0ffc-44c2-8042-8bf451dfc008.gemini_analysis}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-09 08:43:02</sys_created_on>
+        <sys_id>7df1c53c477047502124b5f4316d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:43:02</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>672f0d30-ffea-4ab6-8af3-3f62a9c41c9d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=38c0a934472043502124b5f4316d435d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_38c0a934472043502124b5f4316d435d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 00:42:01</sys_created_on>
+        <sys_id>36c02d34472043502124b5f4316d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-27 00:42:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_38c0a934472043502124b5f4316d435d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 00:42:01</sys_created_on>
+        <sys_id>6ec02d34472043502124b5f4316d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-27 00:42:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_38c0a934472043502124b5f4316d435d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_38c0a934472043502124b5f4316d435d"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>gemini_incident_triage</internal_name>
+        <label_cache>[{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.gemini_analysis","label":"1 - Analyze Incident with Gemini➛Gemini Analysis","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["work_notes"],"689b4add-0488-4938-a9be-665ab75b1d56":[null],"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c1cd7ea1-7d83-47c3-becc-bd55241dc477"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Cyber Security Incident Record","reference":"x_1839598_cybers_0_cyber_security_incident","reference_display":"Cyber Security Incident","type":"reference","base_type":"reference","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["record"],"689b4add-0488-4938-a9be-665ab75b1d56":["record"]},"attributes":{}},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Cyber Security Incident Record➛Short Description","reference":"","reference_display":"Short Description","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"short_description","usedInstances":{"9638ac49-0ffc-44c2-8042-8bf451dfc008":["short_description"]}},{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Cyber Security Incident Record➛Opened By","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"opened_by","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_to"]}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Cyber Security Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"number","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_subject"]}},{"name":"Created_1.current.cmdb_ci","label":"Trigger - Record Created➛Cyber Security Incident Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"cmdb_ci","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["record"]}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.__action_status__.message","label":"1 - Analyze Incident with Gemini➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Gemini Incident Triage</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 02:03:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c1dac7e472007102124b5f4316d43d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:39</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=5c1dac7e472007102124b5f4316d43d6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5c1dac7e472007102124b5f4316d43d6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5c1dac7e472007102124b5f4316d43d6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5c1dac7e472007102124b5f4316d43d6^sys_idNOT IN181dac7e472007102124b5f4316d43d7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5c1dac7e472007102124b5f4316d43d6</id>
+        <name>Gemini Incident Triage</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 02:03:53</sys_created_on>
+        <sys_id>181dac7e472007102124b5f4316d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-03 02:03:53</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=181dac7e472007102124b5f4316d43d7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5c1dac7e472007102124b5f4316d43d6^sys_idNOT IN501dac7e472007102124b5f4316d43ec,941dac7e472007102124b5f4316d43d9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Gemini Incident Triage">5c1dac7e472007102124b5f4316d43d6</model>
+        <model_id>5c1dac7e472007102124b5f4316d43d6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_5c1dac7e472007102124b5f4316d43d6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 02:03:53</sys_created_on>
+        <sys_id>501dac7e472007102124b5f4316d43ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=501dac7e472007102124b5f4316d43ec"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Gemini Incident Triage">5c1dac7e472007102124b5f4316d43d6</model>
+        <model_id>5c1dac7e472007102124b5f4316d43d6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_5c1dac7e472007102124b5f4316d43d6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 02:03:53</sys_created_on>
+        <sys_id>941dac7e472007102124b5f4316d43d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=941dac7e472007102124b5f4316d43d9"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5c1dac7e472007102124b5f4316d43d6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5c1dac7e472007102124b5f4316d43d6"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=5c1dac7e472007102124b5f4316d43d6^sys_idNOT IN141dec7e472007102124b5f4316d4302"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Gemini Incident Triage">5c1dac7e472007102124b5f4316d43d6</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 02:03:53</sys_created_on>
+        <sys_id>141dec7e472007102124b5f4316d4302</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:38</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYXW/bNhT9K4KeViAD9GHHVt5aJ8UCdA1mu9tDkAmURNrEaNKTKCVqkf++S33Ysj4cO1Y656k1SfGee3juuWTuf+gMeZjpV/oceQzrFzrlEoccsXm6xjAs1bDL0UrNrRAPkBRhql/JMMYXOgnFao5Xa4YkLCaIRTAowgCH+pV5oSeIxXiWRrcB7ATfZ9sUe+rFNPx+cs2x7QydseunHg4j18j/40bYj0MqU5dynwaYS/gooBGES/8svp2ohdqsWKjdbhf6S8qCEHP96v7hQl+jEIJLBexHbYoqdD7xkWNhw7dN27IMwxoPTO/S9kwrsBE2DNiwzlQtG9lC2JYK/CQxD3CwYanBZYhRcMdZulmxhKPIeVuhp4h+h93HhlpHMGD3cT63+ekWzOTD/lJQH9+tJRU8H8lx5pOCxSv+NcevOMUExUyWnMJIHMF+eK0gKxAFIjJbisdpGfAz5Vl2xSQTPmKbX0jKkHqxxJEinFAG1Ls5N5GIwwz99GZyN712//o4n/x2M3WnN7P59HYyv7nWn7O83H9jtWOOsMDi5uk8b4TwmWKmDpDHK1ACLI38kK7lR1/SpNTk88VW5xPBA5qx0tC6X05Fu1ovs98ndsPolLtfiVhK/u+bP5pazgeP0+3lJUIBRh269UhFt9XMW6DJFhKq2e1TcDFyiIQHhvE/ibiwrNdq+BFxGblSuCgI3ApLUPKwsUpRBJhdb+PBOF0sQPaUr2MZvSjqPLemsl/WdBhz2MLdnFBT2RmRG0a/0Ajw3UNdlmwVKZAvxY7TmGuCa+CqQJPU4KS1cnctw6nUQW5XaFFwTWaYYV9W5EG+RdVfv9MoonxRQb8Jno00o7O0CqG02VOCPvRZ1k3Sk1o+tfI+urZNkxAPE8sYqco2DdsjpjEyhogEtmH4VqW2m2A6UcqaJN6kxo+r8CgTIzvg9OsUF+CNajUcpN1kV/glCUoihZFM+oFm9gTNUtBqhmgf5YgbWebD17vq3Jdaz7cBFCQIvgjKHA/p9gc4IGHiEbz2Fe5HRIgXoYh5UHchtadG4d+dFT35nof8f/aH3a7QfimO7cO5eeCW9lK4iKc9uJ9NTM/BA2yA6dngd97QcTwfWYSMLkfYMmvut4XRiu1duN4Lx5606abLAVuVm7QJ/gjvOwFgwwePBni6AxbCbPW/fO59ON3jEnMXoIYuU17WMLwFg0dwOddvtTdCJ9v6PrXiydjxh+Zo5I/gHQMVTwbYQ+bAGiJndGmPh7WKb0DZB1O2MPNTXjdRGmVAOtzgWz51Xs/1t5RthKVU7ej4Lp2tR3mASr9UR6JlhiJCTdGp3W4XajMM3S973/bWtYVcNvo1hP4E4zuh1e3uq+C/tsDp8/XE4Xp/CDUdUM7tOlETSbLL+slPKjwYDx1it1sMcdosZgumG+bZXy8OlELSKaq2e8ahpZe0VnDnxeAVxVSTSfXGsOdK0xcpZu+kWG9Hin3yNaqsxc535GvAvqMWlt0rXt/HBMeuIK0+TYlW/NEQB5qXanKJgUwGN2UIpam4fXaO/MrbaGQwrBU3lv56lKK5nva10GBCC39K4m/TqGpS6PcFjIMRGg7tjvuwU38BtwF6Ae/Zt62jJZK0KW5v7zpu3/qerd2rUkG7ijiwL/WadXtzOi3r1vb0UtanN5597/cWFGfaUh7+A+Z7xW12HwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=5c1dac7e472007102124b5f4316d43d6^sys_idNOT IN37e3cd3047b047502124b5f4316d4308,5c1dac7e472007102124b5f4316d43fd,73e3cd3047b047502124b5f4316d430a,981dac7e472007102124b5f4316d43ff"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Gemini Incident Triage">5c1dac7e472007102124b5f4316d43d6</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-09 08:51:38</sys_created_on>
+        <sys_id>37e3cd3047b047502124b5f4316d4308</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:38</sys_updated_on>
+        <ui_id>689b4add-0488-4938-a9be-665ab75b1d56</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=37e3cd3047b047502124b5f4316d4308"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Analyze Incident with Gemini">a8da6aa2475003102124b5f4316d43a4</action_type>
+        <action_type_parent display_value="Analyze Incident with Gemini">20ecb22e47c0c3102124b5f4316d43cb</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>a8da6aa2475003102124b5f4316d43a4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Gemini Incident Triage">5c1dac7e472007102124b5f4316d43d6</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 02:03:53</sys_created_on>
+        <sys_id>5c1dac7e472007102124b5f4316d43fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-03 02:03:53</sys_updated_on>
+        <ui_id>9638ac49-0ffc-44c2-8042-8bf451dfc008</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/5VSyW7bMBD9lYJnWZBs2XV8K2wEKNA2QJdcgkAYkUObAEUpXJy4gv+9Qy1OmwBFwtu82d57w7uOKcE2bM4FrADmxcdlli3ybJ7Pi2opi0W+EsUCgCXMQI1U6Q6N9aVAx61qvWoMpY6gQ8x13dYieBRlnvJgLRqfvqo/n6lDKNdqON2+u5EflBaUZ5u7+4S1YImVR8s23YvUW2VpqFBT6Y+47sPuH13/kexPbZ/yVpn9GH+ZRk1gY0WklicMnzwagcRJgnaYsBqMAN/Y0wUhA8SN0c/AQRlP01gsfnLqN+1bZ1kWKyWSTo5D9hKWo6sDLHfggagE7oMdS/mhURzd4JBACUH77d/YUHAzqOxbPFR66m50qM23wRR2GTAdkZDgiAS2UWrkPgqR5O3j94nltTK9K2NSNxz0JQJP3lXBRz4dC+rnC5sH5JXRqLGmjWUNbUtI2drmqPotRLpO95qCVOrmMV5R7U0KPCpM6QSQXhO+6+FbsCrK/UpjqDmu+2XUQ8DP8TMV6xW97Gq2zNeLWSGvVrP1UuIMMK8ErwTmXLBzwtzJbTU492wUXah8CFHmYNtoUDl4HFv6n/WJSB1x9OJ8/wf6bknZnAMAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5c1dac7e472007102124b5f4316d43fd"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Gemini Incident Triage">5c1dac7e472007102124b5f4316d43d6</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-09 08:51:38</sys_created_on>
+        <sys_id>73e3cd3047b047502124b5f4316d430a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:38</sys_updated_on>
+        <ui_id>f924e224-d93f-47bc-b77c-6f3d3aafc1a5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXWvbMBT9K0HPiZFjNyR5GwmFQddCO/rSdeZaklOBLHuS3DYz+e+7suU0tKVLoXsoy4PhfknnHJ8b37REcrIkqeA0XsQzlsRJMqV0Ok/jfJbk8ZQnIERMxkRDKbDTCFYZjvE9qMYn2nZlBDjBszhijTFCu4iVPM+Y3O2wj0tbK9heh3bMsDupOPaR5c3tmNRg8GQnDFm2z0rHQlOQC4WtlwO251jdtvYxr1hTIr5MDsmzMLkOldHXNVZwyMOJ6ZiIRyc0FwikAGXFmJSgObjKbMnSmQYTSJ5faLXdd9xJ7XqiJTxa+RtvTqnvKwQyY0GEfZgFgfp0sQYHV3gyc43Z61VJJmyvCRcFNMqtDnN9w0XtZKX7EQe5GqYr1ZT6vFeE7A84eB+NRRCi9jw98p5WcXVXPVwOIE+l7iQJFFXFQO0jcM7IvHEeTkuEEp3GJdS11JusNtW97IYRShltFAZRoaoHvNPKjY6AedwRqgrRKebXXfoajPQkvuExOLwbE7u1KwXWPlFBDbNfjUfSEwsUsk6FToKsc4IfZkbW7gtedS8C8N04mD8/ecthbPFkqIMznxYgmP2l1VeVLuSmMeD5jaQT5bvNfwS0wfzfu1f+OtTg/xe5s8PZ0XlfCO4/+TD3zz+T+wONT2//v5meTt/8Wz1wUudze2B4qa0DpTJ8usb+aChNePIT2XniIW7bxSyZA0sXE1oUbJKmbDqZ0xQfeZGexLxglM6jjSillhloUFsr7WsfjH982/v28QjVhn08lUJx+4qMwzKKEmk6kfWyPlvIUBxdh+L+k/RhWxnPaPf7RLv533yZbv8AEeMI3pgJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=73e3cd3047b047502124b5f4316d430a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Gemini Incident Triage">5c1dac7e472007102124b5f4316d43d6</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 02:03:53</sys_created_on>
+        <sys_id>981dac7e472007102124b5f4316d43ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-03 02:03:53</sys_updated_on>
+        <ui_id>3086303a-246d-4007-9816-bd100397531f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5WfS5Q0aZX2bWqFhMRAgokXhizHvinWHCezHSCL+t93kzhtBYiBxAtaH6r6fuWc03vi25ZIQVYkARFGy2jB4yiOZ2E4S5MoW8RZNBMxA4jIlGhWAFYa4KUReH5gqu4Cbbs2wBwIGgW8Nga02+0wL6StFGtufBlG+L1UAvNkdXs3JRUzONGBIav2Weq9kBTLQGHp1YjpOUbXVN1ZlLwuEBeVY/Dcd258ZnK2wQw2dXCicErgyYEWgEBypixMScG0YK40DVk5U2MASYtLrZp9xb3UbiBasCcr/+CTk7CrywGZcS/C/ki9QEM43zDHrnEyd7XZ61VKDnbQREDOauXWx7Gh4LJystRDi2OZGrtLVRf6YlCE7Acc/R+1RRBQdTw75AOt/Pq+fLwaQZ5K3UviKaqSM7U/MeeMzGrXwWkJKOg1LlhVSb2llSkfZN+MUIpgq/AQ5Kp8xGdaudUB4x3uAFVlwSnGN334hhnZkfiOY7B5NyW2sWvFrD1QQQ3p77pDMhDzFGivQi8B7Teha+ZGVu4bPuoBPPDd1C99Nn9rw/jysFBHMw+L/0SjNF7OlynlTQbG0nD4QS2gD6RrqNRc9tq+cMO6K5xc+8LJ2aHwYyZ5B4XRJD/61XidkvfJi9j5ce/kYkh4l8w/zSXpV3KJp/HlbfIvc4SzN1+/R5vU+8EeGeOxNL+oLpHwzzoMY9G2y0WcMp4sT8I85ydJwmcnaZjgV5Yn80jkPAzTYAuF1JIyzVRjpX3tEvnEyR/z2TvUGH12KkEJ+4o8o8mgQEoO6CDXM6P55OTGJ/dX0qe5LVqE/ecLee6/uZnu/gJtZhnykAkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=981dac7e472007102124b5f4316d43ff"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=5c1dac7e472007102124b5f4316d43d6"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5c1dac7e472007102124b5f4316d43d6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5c1dac7e472007102124b5f4316d43d6^sys_idNOT INbbe3cd3047b047502124b5f4316d432b"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>5c1dac7e472007102124b5f4316d43d6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{9638ac49-0ffc-44c2-8042-8bf451dfc008.gemini_analysis}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-09 08:51:39</sys_created_on>
+        <sys_id>bbe3cd3047b047502124b5f4316d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>672f0d30-ffea-4ab6-8af3-3f62a9c41c9d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5c1dac7e472007102124b5f4316d43d6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5c1dac7e472007102124b5f4316d43d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 02:03:53</sys_created_on>
+        <sys_id>1c1dac7e472007102124b5f4316d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-03 02:03:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5c1dac7e472007102124b5f4316d43d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 02:03:53</sys_created_on>
+        <sys_id>d41dac7e472007102124b5f4316d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-03 02:03:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5c1dac7e472007102124b5f4316d43d6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5c1dac7e472007102124b5f4316d43d6"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>38c0a934472043502124b5f4316d435d</sys_id>
+        <latest_snapshot>5c1dac7e472007102124b5f4316d43d6</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch7-02-19-2026_03-04-2026_1012.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=38c0a934472043502124b5f4316d435d^sys_idNOT INdc1dec7e472007102124b5f4316d435d"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"dc1dec7e472007102124b5f4316d435d","name":"plan","plan_signature":null}}</plan>
+        <plan_id>38c0a934472043502124b5f4316d435d</plan_id>
+        <snapshot>7d74a55d473003102124b5f4316d4318</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-03 02:03:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc1dec7e472007102124b5f4316d435d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-09 08:51:39</sys_updated_on>
+        <trigger display_value="">0cf3cd3047b047502124b5f4316d43ad</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=38c0a934472043502124b5f4316d435d"/>
+</record_update>

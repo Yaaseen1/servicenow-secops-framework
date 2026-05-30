@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">2ee84d2347573a102124b5f4316d43af</canvas>
+        <component display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</component>
+        <component_props>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"default"},"configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"value","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"","id":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyNjEzOTczNzcxMTY2MDgyNzMuMzc0Njk0MjM3","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1839598_cybers_0_cyber_security_incident","label":"Cyber Security Incident"}],"dateFormat":"default","emptyStateHeading":"No data available.","emptyStateIllustration":"add-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyNjEzOTczNzcxMTY2MDgyNzMuMzc0Njk0MjM3","groupByField":"state","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true,"disableRanges":false}],"headerTitle":"Incident Lifecycle Status","hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyNjEzOTczNzcxMTY2MDgyNzMuMzc0Njk0MjM3","id":"ZEdGaWJHVjRYekU0TXprMU9UaGZZM2xpWlhKelh6QmZZM2xpWlhKZmMyVmpkWEpwZEhsZmFXNWphV1JsYm5ReE56Y3lOakV6T1Rjek56Y3hNVFkyTURneU56TXVNemMwTmprME1qTTMxNzcyNjEzOTczNzcyMTgyNDE1MDUuNDk1MTk0OTc1","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","showAbsolutePeriod":false,"showBorder":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":true,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":true,"showRegisterValue":true,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":"null","truncationType":"start","wrapTitle":true,"showDataTable":false,"componentId":"3l3tizge","id":"dataPassthrough","value":null,"noDebounce":true,"propLabel":"Data","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null,"allowAdditionalGroupByPerMetric":false,"showLoadingIndicator":false}</component_props>
+        <h>12</h>
+        <name>Incident Lifecycle Status</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-04 08:56:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d42c416b47573a102124b5f4316d43da</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Incident Lifecycle Status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name>par_dashboard_widget_d42c416b47573a102124b5f4316d43da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-10 10:50:51</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props/>
+        <x>36</x>
+        <y>20</y>
+    </par_dashboard_widget>
+</record_update>

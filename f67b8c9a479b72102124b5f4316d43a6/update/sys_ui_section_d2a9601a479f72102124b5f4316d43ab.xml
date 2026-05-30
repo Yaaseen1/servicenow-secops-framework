@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Threat Information" section_id="d2a9601a479f72102124b5f4316d43ab" sys_domain="global" table="x_1839598_cybers_0_cyber_security_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attack_type</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-26 09:55:38</sys_created_on>
+            <sys_id>58ace6e647bff6102124b5f4316d435b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Threat Information" display_value="Threat Information" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">d2a9601a479f72102124b5f4316d43ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-26 09:55:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>suspicious_url</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-26 09:55:38</sys_created_on>
+            <sys_id>d4ace6e647bff6102124b5f4316d435c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Threat Information" display_value="Threat Information" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">d2a9601a479f72102124b5f4316d43ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-26 09:55:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>detection_source</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-26 09:55:38</sys_created_on>
+            <sys_id>54ace6e647bff6102124b5f4316d435d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Threat Information" display_value="Threat Information" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">d2a9601a479f72102124b5f4316d43ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-26 09:55:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>detected_at</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-26 09:55:38</sys_created_on>
+            <sys_id>d0ace6e647bff6102124b5f4316d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Threat Information" display_value="Threat Information" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">d2a9601a479f72102124b5f4316d43ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-26 09:55:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>source_ip_ioc</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-26 09:55:38</sys_created_on>
+            <sys_id>50ace6e647bff6102124b5f4316d435f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Threat Information" display_value="Threat Information" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">d2a9601a479f72102124b5f4316d43ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-26 09:55:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mitre_technique_id</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-26 09:55:38</sys_created_on>
+            <sys_id>dcace6e647bff6102124b5f4316d435f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Threat Information" display_value="Threat Information" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">d2a9601a479f72102124b5f4316d43ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-26 09:55:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_breach</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-26 09:55:38</sys_created_on>
+            <sys_id>5cace6e647bff6102124b5f4316d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Threat Information" display_value="Threat Information" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">d2a9601a479f72102124b5f4316d43ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-26 09:55:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>containment_status</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-26 09:55:38</sys_created_on>
+            <sys_id>d8ace6e647bff6102124b5f4316d4361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Threat Information" display_value="Threat Information" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">d2a9601a479f72102124b5f4316d43ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-26 09:55:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Threat Information</caption>
+            <header>false</header>
+            <name>x_1839598_cybers_0_cyber_security_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-28 09:13:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2a9601a479f72102124b5f4316d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1839598_cybers_0_cyber_security_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+            <sys_update_name>sys_ui_section_d2a9601a479f72102124b5f4316d43ab</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-28 09:13:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

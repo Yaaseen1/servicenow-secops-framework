@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="7ad2689a475f72102124b5f4316d4374" extends="task" label="Cyber Security Incident" max_length="40" name="x_1839598_cybers_0_cyber_security_incident" type="collection">
+        <element label="Suspicious URL" max_length="255" name="suspicious_url" type="string"/>
+        <element choice="3" label="Attack Type" mandatory="true" max_length="40" name="attack_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Malware" sequence="1" value="malware"/>
+                <element inactive_on_update="false" label="Phishing" sequence="0" value="phishing"/>
+                <element inactive_on_update="false" label="Insider Threat" sequence="3" value="insider_threat"/>
+                <element inactive_on_update="false" label="Data Exfiltration" sequence="5" value="Data Exfiltration"/>
+                <element inactive_on_update="false" label="Ransomware" sequence="2" value="ransomware"/>
+                <element inactive_on_update="false" label="DDoS" sequence="4" value="DDoS"/>
+            </choice>
+        </element>
+        <element choice="3" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Application" sequence="1" value="application"/>
+                <element inactive_on_update="false" label="User Access" sequence="4" value="user_access"/>
+                <element inactive_on_update="false" label="Email" sequence="0" value="email"/>
+                <element inactive_on_update="false" label="Endpoint" sequence="3" value="endpoint"/>
+                <element inactive_on_update="false" label="Network" sequence="2" value="network"/>
+            </choice>
+        </element>
+        <element label="MITRE Technique ID" mandatory="true" max_length="40" name="mitre_technique_id" type="string"/>
+        <element label="Detection Time" mandatory="true" max_length="40" name="detected_at" type="glide_date_time"/>
+        <element choice="1" label="Containment Status" max_length="40" name="containment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monitoring" sequence="0" value="Monitoring"/>
+                <element inactive_on_update="false" label="Eradicated" sequence="2" value="eradicated"/>
+                <element inactive_on_update="false" label="Not Contained" sequence="0" value="not_contained"/>
+                <element inactive_on_update="false" label="Contained" sequence="1" value="contained"/>
+            </choice>
+        </element>
+        <element label="Data Breach" max_length="40" name="data_breach" type="boolean"/>
+        <element label="Closure Duration" max_length="255" name="u_closure_duration" type="glide_duration"/>
+        <element choice="3" label="Severity" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="critical"/>
+            </choice>
+        </element>
+        <element label="Detection Source" mandatory="true" max_length="40" name="detection_source" type="string"/>
+        <element label="Source IP IOC" mandatory="true" max_length="100" name="source_ip_ioc" type="string"/>
+    </element>
+</database>

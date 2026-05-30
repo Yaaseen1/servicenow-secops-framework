@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">2ee84d2347573a102124b5f4316d43af</canvas>
+        <component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"top","showStackedValues":"none","showOverlappingLabels":false,"newReporting":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"x_1839598_cybers_0_cyber_security_incident","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyNjEzNDI0NzQ1NTk1MzY1NjYuMzc2NzA1MDA2","dataCategories":["trend","group","simple"],"label":"Cyber Security Incident"}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Incidents by Severity","showBorder":true,"bareBorder":false,"telemetry":"null","showDataPassthrough":false,"metrics":[{"dataSource":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyNjEzNDI0NzQ1NTk1MzY1NjYuMzc2NzA1MDA2","id":"ZEdGaWJHVjRYekU0TXprMU9UaGZZM2xpWlhKelh6QmZZM2xpWlhKZmMyVmpkWEpwZEhsZmFXNWphV1JsYm5ReE56Y3lOakV6TkRJME56UTFOVGsxTXpZMU5qWXVNemMyTnpBMU1EQTIxNzcyNjEzNDI0NzQ3MTAyNzU3MjguOTg5NDAwMzEy","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyNjEzNDI0NzQ1NTk1MzY1NjYuMzc2NzA1MDA2","groupByField":"severity","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"showChangeFrom":"previous","period":"M","dateFormat":"default","showDataTable":false,"chartVariation":"grouped","colorConfig":{"type":"chartColor"},"componentId":"f5bnia3g","id":"colorConfig","value":{"type":"chartColor"},"noDebounce":true,"propLabel":"Colors","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null,"allowAdditionalGroupByPerMetric":false,"showLoadingIndicator":false}</component_props>
+        <h>12</h>
+        <name>Incidents by Severity</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-04 08:56:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c2ccd2b47573a102124b5f4316d4334</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Incidents by Severity</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name>par_dashboard_widget_9c2ccd2b47573a102124b5f4316d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-08 10:22:59</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props/>
+        <x>16</x>
+        <y>20</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</application>
+        <file_path/>
+        <instance_id>1f66dd39eb70ee1056eafddacad0cd43</instance_id>
+        <instance_name>dev323553</instance_name>
+        <name>par_dashboard_widget_9c2ccd2b47573a102124b5f4316d4334</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">2ee84d2347573a102124b5f4316d43af</canvas><component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"top","showStackedValues":"none","showOverlappingLabels":false,"newReporting":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"x_1839598_cybers_0_cyber_security_incident","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyNjEzNDI0NzQ1NTk1MzY1NjYuMzc2NzA1MDA2","dataCategories":["trend","group","simple"],"label":"Cyber Security Incident"}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Incidents by Severity","showBorder":true,"bareBorder":false,"telemetry":"null","showDataPassthrough":false,"metrics":[{"dataSource":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyNjEzNDI0NzQ1NTk1MzY1NjYuMzc2NzA1MDA2","id":"ZEdGaWJHVjRYekU0TXprMU9UaGZZM2xpWlhKelh6QmZZM2xpWlhKZmMyVmpkWEpwZEhsZmFXNWphV1JsYm5ReE56Y3lOakV6TkRJME56UTFOVGsxTXpZMU5qWXVNemMyTnpBMU1EQTIxNzcyNjEzNDI0NzQ3MTAyNzU3MjguOTg5NDAwMzEy","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE4Mzk1OThfY3liZXJzXzBfY3liZXJfc2VjdXJpdHlfaW5jaWRlbnQxNzcyNjEzNDI0NzQ1NTk1MzY1NjYuMzc2NzA1MDA2","groupByField":"severity","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"showChangeFrom":"previous","period":"M","dateFormat":"default","showDataTable":false,"chartVariation":"grouped","colorConfig":{"type":"chartColor"},"componentId":"f5bnia3g","id":"colorConfig","value":{"type":"chartColor"},"noDebounce":true,"propLabel":"Colors","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null,"allowAdditionalGroupByPerMetric":false,"showLoadingIndicator":false}</component_props><h>12</h><name>Incidents by Severity</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-04 08:56:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9c2ccd2b47573a102124b5f4316d4334</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Incidents by Severity</sys_name><sys_overrides/><sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package><sys_policy/><sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope><sys_update_name>par_dashboard_widget_9c2ccd2b47573a102124b5f4316d4334</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-08 10:22:59</sys_updated_on><visualization/><w>12</w><widget_props/><x>16</x><y>20</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>528494973</payload_hash>
+        <record_name>Incidents by Severity</record_name>
+        <reverted_from/>
+        <source>477b8c9a479b72102124b5f4316d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-08 10:22:59</sys_created_on>
+        <sys_id>d5468eb447a332102124b5f4316d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cccf8bc5a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-08 10:22:59</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>d5468eb4c7a3321084d83acdc01f3101</update_guid>
+        <update_guid_history>d5468eb4c7a3321084d83acdc01f3101:528494973,9eb58a7478a33210948360f9717186bc:1192686814,e8c4c6f045a332102eaf549ba8599f41:-300728165,942c416bcd573a107db94ea26ff398cc:68012838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Incidents by Severity">8faf182147ef36102124b5f4316d43fc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-10 10:50:10</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>9698a9c929994538824dfb791054b040</sys_id>
+        <sys_metadata>9c2ccd2b47573a102124b5f4316d4334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incidents by Severity</sys_name>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_scope_delete display_value="">61bdd6cbff3d4ae09d3f6c119e68cb71</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_9c2ccd2b47573a102124b5f4316d4334</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_9c2ccd2b47573a102124b5f4316d4334">d5468eb447a332102124b5f4316d4302</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-10 10:50:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

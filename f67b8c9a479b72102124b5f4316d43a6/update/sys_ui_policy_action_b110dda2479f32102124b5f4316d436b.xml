@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>suspicious_url</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-01 06:40:37</sys_created_on>
+        <sys_id>b110dda2479f32102124b5f4316d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>suspicious_url</sys_name>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b110dda2479f32102124b5f4316d436b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-01 06:40:37</sys_updated_on>
+        <table>x_1839598_cybers_0_cyber_security_incident</table>
+        <ui_policy display_value="Make Suspicious URL mandatory if Attack Type is Phishing">88bf81a2479f32102124b5f4316d4395</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=b110dda2479f32102124b5f4316d436b"/>
+</record_update>

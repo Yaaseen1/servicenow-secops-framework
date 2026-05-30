@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>IHUB_SOURCE_TEMP_MAPPING</name>
+        <order>50</order>
+        <source_sys_rte_eb_entity display_value="Source_x_1839598_cybers_0_ihub_import_d0e2685e479b72102124b5f4316d4374">70e22c9a475f72102124b5f4316d43a8</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-28 08:43:59</sys_created_on>
+        <sys_id>05e2ac9a475f72102124b5f4316d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_SOURCE_TEMP_MAPPING</sys_name>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Cyber Security Incident Data Mapping_etl_ihub">24e2289a475f72102124b5f4316d43f7</sys_rte_eb_definition>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_05e2ac9a475f72102124b5f4316d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-28 08:43:59</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_1839598_cybers_0_cyber_security_incident">c1e2ac9a475f72102124b5f4316d4307</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</application>
+        <file_path/>
+        <instance_id>1f66dd39eb70ee1056eafddacad0cd43</instance_id>
+        <instance_name>dev323553</instance_name>
+        <name>sys_rte_eb_entity_mapping_05e2ac9a475f72102124b5f4316d430b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;&lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;&lt;condition_script&gt;&lt;![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input &amp;&amp; input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]&gt;&lt;/condition_script&gt;&lt;encoded_query/&gt;&lt;entity_mapping_group/&gt;&lt;ignore&gt;false&lt;/ignore&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;IHUB_SOURCE_TEMP_MAPPING&lt;/name&gt;&lt;order&gt;50&lt;/order&gt;&lt;source_sys_rte_eb_entity display_value="Source_x_1839598_cybers_0_ihub_import_d0e2685e479b72102124b5f4316d4374"&gt;70e22c9a475f72102124b5f4316d43a8&lt;/source_sys_rte_eb_entity&gt;&lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-28 08:43:59&lt;/sys_created_on&gt;&lt;sys_id&gt;05e2ac9a475f72102124b5f4316d430b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;IHUB_SOURCE_TEMP_MAPPING&lt;/sys_name&gt;&lt;sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0"&gt;f67b8c9a479b72102124b5f4316d43a6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="Cyber Security Incident Data Mapping_etl_ihub"&gt;24e2289a475f72102124b5f4316d43f7&lt;/sys_rte_eb_definition&gt;&lt;sys_scope display_value="Cybersecurity Incident Management"&gt;f67b8c9a479b72102124b5f4316d43a6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_entity_mapping_05e2ac9a475f72102124b5f4316d430b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-28 08:43:59&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_1839598_cybers_0_cyber_security_incident"&gt;c1e2ac9a475f72102124b5f4316d4307&lt;/target_sys_rte_eb_entity&gt;&lt;/sys_rte_eb_entity_mapping&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>859549147</payload_hash>
+        <record_name>IHUB_SOURCE_TEMP_MAPPING</record_name>
+        <reverted_from/>
+        <source>477b8c9a479b72102124b5f4316d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-28 08:43:59</sys_created_on>
+        <sys_id>45e2ac9a475f72102124b5f4316d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ca36b3a510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-28 08:43:59</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>01e2ac9ac55f72101ecd5d6fd761670f</update_guid>
+        <update_guid_history>01e2ac9ac55f72101ecd5d6fd761670f:859549147</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-28 08:46:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>29a600153bc54a10a3909ff89c399440</sys_id>
+        <sys_metadata>05e2ac9a475f72102124b5f4316d430b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_SOURCE_TEMP_MAPPING</sys_name>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_scope_delete display_value="">61bdd6cbff3d4ae09d3f6c119e68cb71</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_05e2ac9a475f72102124b5f4316d430b</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_05e2ac9a475f72102124b5f4316d430b">45e2ac9a475f72102124b5f4316d4310</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-28 08:46:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

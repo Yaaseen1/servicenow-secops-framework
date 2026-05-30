@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role/>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-28 07:01:43</sys_created_on>
+        <sys_id>c77b8c9a479b72102124b5f4316d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>077b8c9a479b72102124b5f4316d43cf</sys_name>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c77b8c9a479b72102124b5f4316d43d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-28 07:01:43</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
