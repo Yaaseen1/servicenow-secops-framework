@@ -5,10 +5,10 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>MITRE Technique ID</column_label>
+        <column_label>Suggested MITRE Technique ID</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>true</mandatory>
-        <max_length>40</max_length>
+        <max_length>255</max_length>
         <name>x_1839598_cybers_0_cyber_security_incident</name>
         <next_element/>
         <primary>false</primary>
@@ -47,13 +47,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-28 08:47:01</sys_created_on>
-        <sys_name>MITRE Technique ID</sys_name>
+        <sys_name>Suggested MITRE Technique ID</sys_name>
         <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_update_name>sys_dictionary_x_1839598_cybers_0_cyber_security_incident_mitre_technique_id</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-02 21:36:05</sys_updated_on>
+        <sys_updated_on>2026-06-24 01:05:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

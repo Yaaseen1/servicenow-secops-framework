@@ -20,7 +20,7 @@
                 <element inactive_on_update="false" label="Network" sequence="2" value="network"/>
             </choice>
         </element>
-        <element label="MITRE Technique ID" mandatory="true" max_length="40" name="mitre_technique_id" type="string"/>
+        <element label="Suggested MITRE Technique ID" mandatory="true" max_length="255" name="mitre_technique_id" type="string"/>
         <element label="Detection Time" mandatory="true" max_length="40" name="detected_at" type="glide_date_time"/>
         <element choice="1" label="Containment Status" max_length="40" name="containment_status" type="choice">
             <choice>

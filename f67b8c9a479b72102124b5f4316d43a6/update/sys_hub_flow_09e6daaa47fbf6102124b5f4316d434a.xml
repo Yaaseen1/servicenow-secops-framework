@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3013000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>09e6daaa47fbf6102124b5f4316d434a</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Automated Security Triage - Phishing</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_update_name>sys_hub_flow_09e6daaa47fbf6102124b5f4316d434a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-26 09:10:54</sys_updated_on>
+        <sys_updated_on>2026-06-13 06:51:40</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>c56222e2477ff6102124b5f4316d430a</version_record>
+        <version_record>4028b84047ed03d02124b5f4316d4320</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=09e6daaa47fbf6102124b5f4316d434a"/>
     <sys_variable_value action="delete_multiple" query="document_key=09e6daaa47fbf6102124b5f4316d434a"/>
@@ -81,16 +81,16 @@
         <trigger_definition/>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <active>false</active>
+        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
         <identifier>09e6daaa47fbf6102124b5f4316d434a</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-26 09:10:54</sys_created_on>
         <sys_id>f462eea2477ff6102124b5f4316d4321</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-26 09:10:54</sys_updated_on>
+        <sys_updated_on>2026-06-21 13:33:18</sys_updated_on>
         <trigger display_value="">bc62eea2477ff6102124b5f4316d431f</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=09e6daaa47fbf6102124b5f4316d434a^sys_idNOT INf462eea2477ff6102124b5f4316d4321"/>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Set the following values on the form:
+Attack Type = Ransomware
+and Detection Source = Emloyee's laptop
+and State = In Progress
+and Impact = 1 - High
+and Short Description = ATF Test: Critical Server Breach.
+and Assignment Group = SOC Tier 1
+and Description = test
+and MITRE Technique ID = abcdefg
+and Detection Time = 2026-06-01 00:00:00
+and Category = Application
+and Urgency = 1 - High</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 06:32:08</sys_created_on>
+        <sys_id>a6b50ce84759c3502124b5f4316d43ca</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
+        <sys_update_name>sys_atf_step_a6b50ce84759c3502124b5f4316d43ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 06:50:51</sys_updated_on>
+        <table>x_1839598_cybers_0_cyber_security_incident</table>
+        <test display_value="P1 Security Incident Escalation Test">941ed93747cd4f102124b5f4316d4360</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a6b50ce84759c3502124b5f4316d43ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a6b50ce84759c3502124b5f4316d43ca</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 06:32:08</sys_created_on>
+        <sys_id>1e2a4c284799c3502124b5f4316d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 06:32:08</sys_updated_on>
+        <value>x_1839598_cybers_0_cyber_security_incident</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a6b50ce84759c3502124b5f4316d43ca</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 06:32:08</sys_created_on>
+        <sys_id>522a4c284799c3502124b5f4316d4301</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 06:50:51</sys_updated_on>
+        <value>attack_type=ransomware^detection_source=Emloyee's laptop^state=2^impact=1^short_description=ATF Test: Critical Server Breach.^assignment_group=02d929e6475372102124b5f4316d4368^description=test^mitre_technique_id=abcdefg^detected_at=2026-06-01 00:00:00^category=application^urgency=1^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a6b50ce84759c3502124b5f4316d43ca</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 06:32:08</sys_created_on>
+        <sys_id>d62a4c284799c3502124b5f4316d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 06:32:08</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=a6b50ce84759c3502124b5f4316d43ca"/>
+</record_update>
