@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=7955393000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=8229849000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,14 +15,14 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>gemini_incident_triage</internal_name>
-        <label_cache>[{"name":"5d8d651a-8ddb-4cd0-9a25-88c15dfcfb69.threat_status","label":"11 - Check With Virus Total➛Threat Status","reference_display":"Threat Status","type":"string","base_type":"string","usedInstances":{"c89347cb-131b-4438-8440-21f2574271ef":["work_notes"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6504827e-0e54-4e41-b401-0c917a4621ba"}},{"name":"Created_1.current.suspicious_url","label":"Trigger - Record Created➛Cyber Security Incident Record➛Suspicious URL","reference":"","reference_display":"Suspicious URL","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"suspicious_url","usedInstances":{"84cb21e1-81b5-45f8-a814-f07a32c30093":["condition"],"f3410bad-d5dc-412f-a97a-a8808efea457":["condition"],"5d8d651a-8ddb-4cd0-9a25-88c15dfcfb69":["url"]}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.malicious_intent_flag","label":"1 - Analyze Incident with Gemini➛Malicious Intent Flag","reference_display":"Malicious Intent Flag","type":"string","base_type":"string","usedInstances":{"87d0897a-c116-445c-860f-35e729bb22db":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"bd12ea84-dca4-4a28-adff-5a1e43423c94"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.countermeasure","label":"1 - Analyze Incident with Gemini➛Countermeasure","reference_display":"Countermeasure","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["mitre_technique_id"],"10c602d7-8e3b-434b-951e-383024a7bbff":["mitre_technique_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"451281f5-5bbf-4a61-83ea-68580a0763fc"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.summary","label":"1 - Analyze Incident with Gemini➛Summary","reference_display":"Summary","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["work_notes"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f85451b5-50da-40aa-8507-adb2c3f25ac7"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.short_description","label":"1 - Analyze Incident with Gemini➛Short Description","reference_display":"Short Description","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["short_description"],"10c602d7-8e3b-434b-951e-383024a7bbff":["short_description"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"694848fb-74a4-483f-9a68-5ec3ef53f9b9"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.__action_status__.message","label":"1 - Analyze Incident with Gemini➛Action Status➛Message","reference":"","reference_display":"Message","type":"string","base_type":"string","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{}},{"name":"Created_1.current.cmdb_ci","label":"Trigger - Record Created➛Cyber Security Incident Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"cmdb_ci","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["record"],"8d8a0d1b-576a-49ae-aa4c-c69ef4d2b55c":["condition"]}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Cyber Security Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"number","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_subject"]}},{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Cyber Security Incident Record➛Opened By","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"opened_by","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_to"]}},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Cyber Security Incident Record➛Short Description","reference":"","reference_display":"Short Description","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"short_description","usedInstances":{"9638ac49-0ffc-44c2-8042-8bf451dfc008":["short_description"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Cyber Security Incident Record","reference":"x_1839598_cybers_0_cyber_security_incident","reference_display":"Cyber Security Incident","type":"reference","base_type":"reference","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["record"],"689b4add-0488-4938-a9be-665ab75b1d56":["record"],"10c602d7-8e3b-434b-951e-383024a7bbff":["record"],"6add698e-997e-4ba1-877e-647eaa478a06":["parent"],"c89347cb-131b-4438-8440-21f2574271ef":["record"]},"attributes":{}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.gemini_analysis","label":"1 - Analyze Incident with Gemini➛Gemini Analysis","reference_display":"Gemini Analysis","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["work_notes"],"689b4add-0488-4938-a9be-665ab75b1d56":[null],"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c1cd7ea1-7d83-47c3-becc-bd55241dc477"}},{"name":"Created_1.current.description","label":"Trigger - Record Created➛Cyber Security Incident Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"description","usedInstances":{"9638ac49-0ffc-44c2-8042-8bf451dfc008":["description"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.description","label":"Trigger - Record Created➛Cyber Security Incident Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"description","usedInstances":{"9638ac49-0ffc-44c2-8042-8bf451dfc008":["description"]}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.gemini_analysis","label":"1 - Analyze Incident with Gemini➛Gemini Analysis","reference_display":"Gemini Analysis","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["work_notes"],"689b4add-0488-4938-a9be-665ab75b1d56":[null],"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c1cd7ea1-7d83-47c3-becc-bd55241dc477"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Cyber Security Incident Record","reference":"x_1839598_cybers_0_cyber_security_incident","reference_display":"Cyber Security Incident","type":"reference","base_type":"reference","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["record"],"689b4add-0488-4938-a9be-665ab75b1d56":["record"],"10c602d7-8e3b-434b-951e-383024a7bbff":["record"],"6add698e-997e-4ba1-877e-647eaa478a06":["parent"],"c89347cb-131b-4438-8440-21f2574271ef":["record"]},"attributes":{}},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Cyber Security Incident Record➛Short Description","reference":"","reference_display":"Short Description","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"short_description","usedInstances":{"9638ac49-0ffc-44c2-8042-8bf451dfc008":["short_description"]}},{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Cyber Security Incident Record➛Opened By","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"opened_by","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_to"]}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Cyber Security Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"number","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_subject"]}},{"name":"Created_1.current.cmdb_ci","label":"Trigger - Record Created➛Cyber Security Incident Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"cmdb_ci","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["record"],"8d8a0d1b-576a-49ae-aa4c-c69ef4d2b55c":["condition"]}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.__action_status__.message","label":"1 - Analyze Incident with Gemini➛Action Status➛Message","reference":"","reference_display":"Message","type":"string","base_type":"string","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.short_description","label":"1 - Analyze Incident with Gemini➛Short Description","reference_display":"Short Description","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["short_description"],"10c602d7-8e3b-434b-951e-383024a7bbff":["short_description"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"694848fb-74a4-483f-9a68-5ec3ef53f9b9"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.summary","label":"1 - Analyze Incident with Gemini➛Summary","reference_display":"Summary","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["work_notes"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f85451b5-50da-40aa-8507-adb2c3f25ac7"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.countermeasure","label":"1 - Analyze Incident with Gemini➛Countermeasure","reference_display":"Countermeasure","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["mitre_technique_id"],"10c602d7-8e3b-434b-951e-383024a7bbff":["mitre_technique_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"451281f5-5bbf-4a61-83ea-68580a0763fc"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.malicious_intent_flag","label":"1 - Analyze Incident with Gemini➛Malicious Intent Flag","reference_display":"Malicious Intent Flag","type":"string","base_type":"string","usedInstances":{"87d0897a-c116-445c-860f-35e729bb22db":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"bd12ea84-dca4-4a28-adff-5a1e43423c94"}},{"name":"Created_1.current.suspicious_url","label":"Trigger - Record Created➛Cyber Security Incident Record➛Suspicious URL","reference":"","reference_display":"Suspicious URL","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"suspicious_url","usedInstances":{"84cb21e1-81b5-45f8-a814-f07a32c30093":["condition"],"f3410bad-d5dc-412f-a97a-a8808efea457":["condition"],"5d8d651a-8ddb-4cd0-9a25-88c15dfcfb69":["url"]}},{"name":"5d8d651a-8ddb-4cd0-9a25-88c15dfcfb69.threat_status","label":"9 - Check With Virus Total➛Threat Status","reference_display":"Threat Status","type":"string","base_type":"string","usedInstances":{"c89347cb-131b-4438-8440-21f2574271ef":["work_notes"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6504827e-0e54-4e41-b401-0c917a4621ba"}}]</label_cache>
         <master_snapshot>5c1dac7e472007102124b5f4316d43d6</master_snapshot>
         <master_snapshot_digest/>
         <name>Gemini Incident Triage</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>943c6756831247106dbf6170deaad33d</remote_trigger_id>
+        <remote_trigger_id>1223086783964f106dbf6170deaad3ae</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>38c0a934472043502124b5f4316d435d</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>77</sys_mod_count>
         <sys_name>Gemini Incident Triage</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_update_name>sys_hub_flow_38c0a934472043502124b5f4316d435d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:50</sys_updated_on>
+        <sys_updated_on>2026-08-07 07:34:48</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>643ca756831247106dbf6170deaad38c</version_record>
+        <version_record>987114f183a243906dbf6170deaad3be</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=38c0a934472043502124b5f4316d435d"/>
     <sys_variable_value action="delete_multiple" query="document_key=38c0a934472043502124b5f4316d435d"/>
@@ -68,15 +68,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-07-28 02:31:50</sys_created_on>
+        <sys_created_on>2026-07-31 06:46:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>943c6756831247106dbf6170deaad33d</sys_id>
+        <sys_id>1223086783964f106dbf6170deaad3ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:50</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:07</sys_updated_on>
         <table>x_1839598_cybers_0_cyber_security_incident</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -87,14 +87,14 @@
         <identifier_type>flow</identifier_type>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-07-28 02:31:50</sys_created_on>
-        <sys_id>dc3c6756831247106dbf6170deaad33e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2026-07-31 06:46:07</sys_created_on>
+        <sys_id>5623086783964f106dbf6170deaad3af</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:50</sys_updated_on>
-        <trigger display_value="">943c6756831247106dbf6170deaad33d</trigger>
+        <sys_updated_on>2026-08-07 07:34:48</sys_updated_on>
+        <trigger display_value="">1223086783964f106dbf6170deaad3ae</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=38c0a934472043502124b5f4316d435d^sys_idNOT INdc3c6756831247106dbf6170deaad33e"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=38c0a934472043502124b5f4316d435d^sys_idNOT IN5623086783964f106dbf6170deaad3af"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=38c0a934472043502124b5f4316d435d"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=38c0a934472043502124b5f4316d435d^sys_idNOT INf8c0a934472043502124b5f4316d4361"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -302,7 +302,7 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=38c0a934472043502124b5f4316d435d^sys_idNOT IN2e30c5b4477047502124b5f4316d435b,6012c93c477047502124b5f4316d4371,68eae07a472007102124b5f4316d430b,72b07fce83de83106dbf6170deaad39e,74f15d06831a43106dbf6170deaad374,9a1177ca835e83106dbf6170deaad3ec,a32a2cf6472007102124b5f4316d43df,ddc29d06835a43106dbf6170deaad319"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=38c0a934472043502124b5f4316d435d^sys_idNOT IN2e30c5b4477047502124b5f4316d435b,68eae07a472007102124b5f4316d430b,72b07fce83de83106dbf6170deaad39e,74f15d06831a43106dbf6170deaad374,9a1177ca835e83106dbf6170deaad3ec,a32a2cf6472007102124b5f4316d43df,ddc29d06835a43106dbf6170deaad319"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
@@ -318,39 +318,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-09 08:35:26</sys_created_on>
         <sys_id>2e30c5b4477047502124b5f4316d435b</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:34:14</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:49:37</sys_updated_on>
         <ui_id>689b4add-0488-4938-a9be-665ab75b1d56</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Z23LbNhD9FQyfJYW6S86Ta49bzyR1J3bThzjDAUHQQgMSLAFGVjya6Xs/oTP9uH5JFwR40cUyFTutPdWLbS4Wi7OLc7AE/eHOYYFz5AyCiTvywwEeu/1e33UnvenU709DdzKeul0SOC0nxhEFz5QSkernz5hn2nB3d5JSrGjgdTskS1Maq+USxgMmE44X760bWMiM8QDGnaMPH1tOglOIqGjqHN2tDTWFxLFPObhe4fSGKvSugLYOVS0S/RwIkkUAz2OF8Y0NcGpH0PkpjMAkjcptOfRW0TigACfEXNKWE+E4wEqki9ICuQcXMa8MMxYrCHkspSAM6iKRmlFEI8w4mjM1QxgZYB1Hx7uV7AuA6/d0qJBCDYjGymLCAkDk1MyeLSkMn1fD4SlW+FKlGVFZWlZaMEKlqWZAQ5xxdVK3GYeLRDERmykK+7yYLXgWxT+aIjplgNpOZhLA0ETXRicLi0Pi4eVMzN8VYM9YnFfRVoULgnn5FF5SnJLZGaNcb3WcRT74thysVMr8TGmYQAoOXtU6Xg5VrwWelNN8KyOcJCy+8ZJUfGb5ggA/6txweOiEXMxhvmQ3cQcTnWsHdg93zsB+mpvf45TpxN9CGJi8bDlyIU84lrJKH+rv/ZZp9KYYq3D0bC8nnJ5MUpaoY1jqM7XJLltWYt3pLj4Hg4q3tZiVzG697qQ/HU4nHllAsaTnmj88SUF1TC28GmXWtHeiHdGldUQ18uwnyQYpVJLUdNqekpXjhu1NfS760QxYMXb3FKOhpNXiFQhQmTPCSA8pC6/U38Rd1d89unseeitV1Fhwq8L6NuIBkkjPKMDmli/+FaJ6SEruaOT7I3847lc8nJIwGPvhCI9Jv+LdHA7gNMLpJy8/gGt66m7KxB4t+2miAZZCE6A7ngUU/VKA2oXTisQXAk7BeF0hgPTVWV7dUiG9R7UrQ02kBILN5AtoUiUkbaxamJphhZhEEnarg64EYjar2owWWogMRZlU4KZgZEV8K31v8Hx1Z+lgradbufIihPn0AhzubgS4IjaeeUrsflvsCFgbDP5iuUSbqmwwYz/FNgBfdjGxmYkVpoR9i2/WdHlZGK0m+7s1aZrUhiRrTcl9vvJ4KezXwDmLWE4Io9unF0Swk1PUXaERITVBPMFNqcHiBaFPTjaR7EPowdc1mQOjXxyjuzuv33S0wiP/qSndYPWC0t+tcdrfm9TDA6n/J6Qe7qYVWSGSzPxfKVE1Yv+cQA4UwXsyvN9uuVAfoW0vK+brxrZvYo+Ot+eLz8PZF6K6LHPfVo99xDU6vAL959p6eiHhnVQKe6snsggWNRVdZ67bJwnSmNuKxYuI0FQI5UNhPuWDwbVzbdzoBegCZ0pEWgQIslA0QjMsEY4xX3wBWy6dlCYihfuoiQ3EFPGNWSDBatZWoh2LgBbBB61Bq9tyW+61Y5z0Bt3CzxWv4bgAcXwOkoS6zkCRdoUEx4joghbeOo4HCtQlTBjnEFqqBS+jWaYewX2Zs5i+hnEiYhAG5MVyyhWeeaULZDpUXrhi9O4uDDyV4liGIo2ORuNe6AZ9tx2GFLcH2B+1Jzjst/vhqIenZNAl02C5LBLZDR6WQggTQhMlqyW8MItzkknABEDzWhUT3X85DUsaKhULilBa9T9B/POgSZo5lLbFnP/GsB3pQ1P1LNnECcDdqhKoEFyxpF2BzW+RufFKJOtuFlXh20VtdGxoXrYE8y+E72nEYpZzsTe6Ua8LQ+4tWTOgUuFUFZ4PrWUivdKhGoTGaSrmzXcj7zptAuJR+05aWenvv/68B+fDhnsygUOxiL5e469dCQ57BS2/4sSm1LwQExxQr4kstALrsO+NhmJRU7X+zMeonq17halmEeICegEqXVERByWMfKIpAiN6iC+wFXty0pyLbdN12gy0sGXG9iM1FvmBaknw+x+Nt8ZsxX7bt8WQtxtj6qBjpCiZxYwwwDvXZ2ooOHRmlCVIzqBL8UXHTkzMnM0XQ9siH90Cv2X7epqO8mwO7MOBeTgwDwfmizkw97v5NriulJ+TzGVl4/Zi77wzFfG1G+8PV2/fVPfd8SM/Jo2Gw/7ocON99NekZB70glQkic3tib8offwHi/z52TolAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2e30c5b4477047502124b5f4316d435b"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</flow>
-        <generation_source/>
-        <order>9</order>
-        <parent_ui_id>8d8a0d1b-576a-49ae-aa4c-c69ef4d2b55c</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-09 08:43:30</sys_created_on>
-        <sys_id>6012c93c477047502124b5f4316d4371</sys_id>
-        <sys_mod_count>32</sys_mod_count>
-        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:34:14</sys_updated_on>
-        <ui_id>f924e224-d93f-47bc-b77c-6f3d3aafc1a5</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+VVXWvbMBT9K0HPiZFjNyR5GwmFQddCO/rSdeZaklOBLHuS3DYz+e+7suU0tKVLoXsoy4PhfknnHJ8b37REcrIkqeA0XsQzlsRJMqV0Ok/jfJbk8ZQnIERMxkRDKbDTCFYZjvE9qMYn2nZlBDjBszhijTFCu4iVPM+Y3O2wj0tbK9heh3bMsDupOPaR5c3tmNRg8GQnDFm2z0rHQlOQC4WtlwO251jdtvYxr1hTIr5MDsmzMLkOldHXNVZwyMOJ6ZiIRyc0FwikAGXFmJSgObjKbMnSmQYTSJ5faLXdd9xJ7XqiJTxa+RtvTqnvKwQyY0GEfZgFgfp0sQYHV3gyc43Z61VJJmyvCRcFNMqtDnN9w0XtZKX7EQe5GqYr1ZT6vFeE7A84eB+NRRCi9jw98p5WcXVXPVwOIE+l7iQJFFXFQO0jcM7IvHEeTkuEEp3GJdS11JusNtW97IYRShltFAZRoaoHvNPKjY6AedwRqgrRKebXXfoajPQkvuExOLwbE7u1KwXWPlFBDbNfjUfSEwsUsk6FToKsc4IfZkbW7gtedS8C8N04mD8/ecthbPFkqIMznxYgmP2l1VeVLuSmMeD5jaQT5bvNfwS0wfzfu1f+OtTg/xe5s8PZ0XlfCO4/+TD3zz+T+wONT2//v5meTt/8Wz1wUudze2B4qa0DpTJ8usb+aChNePIT2XniIW7bxSyZA0sXE1oUbJKmbDqZ0xQfeZGexLxglM6jjSillhloUFsr7WsfjH982/v28QjVhn08lUJx+4qMwzKKEmk6kfWyPlvIUBxdh+L+k/RhWxnPaPf7RLv533yZbv8AEeMI3pgJAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6012c93c477047502124b5f4316d4371"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -366,10 +342,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-03 01:54:21</sys_created_on>
         <sys_id>68eae07a472007102124b5f4316d430b</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:34:14</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:49:37</sys_updated_on>
         <ui_id>3086303a-246d-4007-9816-bd100397531f</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVTU/jMBD9K1XOJXKatGp7W7VCQmJBghUXdtdy7Am11nGC7QDZqP99J4nTVoBYKnFB9FDV8+X3XmfGt00gRbAMEhAkWkQzHkdxPCFkMk+idBan0UTEDCAKxoFmOWCkAV4YgecHpqrW0DQrA8yBoFHIK2NAu+0W/ULaUrH6xoehhW+kEugPlre/xkHJDFZ0YIJl88z1XkiKpaAw9GrA9Byjq8v2LApe5YiLysF47jPX3jM6W6MHk1o4ERkH8ORAC0AgGVMWxkHOtGCuMHWwdKZCA5IWl1rVu4iN1K4nmrMnK//izQlp4zJAZtyLsDtSL1BvztbMsWuszF1ldnoVkoPtNRGQsUq51aGtD7gsnSx0n+JYqobsQlW5vugVCXYFDv6PyiIIKFueLfKeVna9KR6vBpCnUneSeIqq4EztTsw5I9PKtXCaABR0GuesLKW+o6UpHmSXjFDy8E7hIcxU8Yh3WnmnQ8Zb3CGqysJTtK878w0zsiXxHctg8nYc2NquFLN2TwU1pPdVi6Qn5inQToVOAtp1QpvMjSzdN7zqATzw7dg3fTp9q8P4Yt9QBzX3jf9Eo3m8mC7mlNcpGEtJ/4NawDmQrqZSc9lp+2IaVm3g6NoHjs72gccNyTsoDEPyo2uN1yn5OXlhOz/MHV30Dj8l0w+bkvlnmhJP49OPyf+Gg0zeXL8HndTNgz0YDLspjGvhd+UR/M+KkFg0zWIWzxlPFicky/hJkvDJyZwk+JVmyTQSGSdkHr7I3m5/PxbmD9UFSnhcqSrPmamxQC6dAeqAb7S8rwAfgqMK8aLSOIQ5MIt999rz9iU4H7eb3tFBw246laCEfaWlhsUEOYrtgPYt9mw5eefoxjt3z/iHbahoRrrPJ9pTX+Y1//UPa91sEcQKAAA=</values>
@@ -384,16 +360,16 @@
         <display_text/>
         <flow display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</flow>
         <generation_source/>
-        <order>11</order>
+        <order>9</order>
         <parent_ui_id>f3410bad-d5dc-412f-a97a-a8808efea457</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-27 08:13:12</sys_created_on>
         <sys_id>72b07fce83de83106dbf6170deaad39e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:34:14</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:49:37</sys_updated_on>
         <ui_id>5d8d651a-8ddb-4cd0-9a25-88c15dfcfb69</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/5VSy27bMBD8F55lQapdW/KtcBCgQNoASZNLEAgrcmUToEiGDyeu4H/v0pLdwr20x52d5c7M8mVgUrA161YVYldANRdYzctiKdpuWa4KgQBijhXLmIYeiRmdomIPKqZqGDYOIaBoypxH51CH3EdvJZcm+obIxyPRhfRWweH5/6b4TipBTbZ+ec2YBUcKAjq2Hq5a/2pBQYuKqE8Pd9eGwsGmwgcn9Xaq7yb64xk0TqT1ZcbwI6AWSHs7UB4z1oMWEIw7sHVwkQAyKO61OlwYO6kDPcYS98PLn7SuKooiMTskKxzH7qVsptRGuLuBAKQk8hDdROU7Izn6MQSBHUQVNn9iI+HeBmn0OBKgVedpo2Kvv48psMsD5yMREj2JQJucJu2Tke5xZ94fzipvpT6FMjWV4aAuFQSKro0h6RlYlD+uUh6Rv3JGhT1tbHqwlpDGOrOXpy0kus+3ioq8U+ad1Hm51Tnw5DCnC0B+S/jNCX4GJ5Pdb/QMDad1T1q+Rfya/su8ritY4HK24LWYLT6Xi1ktKpyVLUcOBa54/YkdM+YPfqPA+99B0YWat5hsjrFNATVjxmmEO2nDFxK1xymL4+svm2UQCGsDAAA=</values>
@@ -414,10 +390,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-26 20:39:28</sys_created_on>
         <sys_id>74f15d06831a43106dbf6170deaad374</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:34:14</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:49:37</sys_updated_on>
         <ui_id>10c602d7-8e3b-434b-951e-383024a7bbff</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1W3U/jOBD/V6w8l8ppSrftGyqwQuJg1XK8bJfIsSet7xw7aztAt+r/fuN8lArQHuj2Bd32oYrnK7/5zYwnX7eRFNE0GoKg8SQe8SROkgGlg/EwzkZJFg9EwgDiqBdpVgBaWuDGCjzfM1UFwXY7s8A8iDTu88pa0H63Q72QrlRsc9uaoYSvpRKoj6Zfv/WiklmM6MFG0+0z1VshKZaBQtN5h+k5Rr8pw1kYXhWIK5Wd8LL1PG015OIUNegU4MS0F8GjBy0AgeRMOehFBdOCeWM30dTbCgWYtLjWarO3WEvtm0QL9ujkD3zzkAa7HDAz3pKwP6YtQY04P2WeLTAy95Xd82UkB9dwIiBnlfKzQ1ljcF16aXTj4lmmOm+jqkJfNYxE+wAH9agcgoAy5BmQN2nli7V5mHcgz6WuKWlTVIYztT8x763MKh/gbCNQUHNcsLKUepWW1tzL2hmhFP2VwkM/V+YB3+nkSvcZD7j7yCrrn6P8tBbfMitDEn9gGHTe9SK3cTPFnHtKBTlMv1cBSZNYm0Jas1BTkNadEJy5laU/wVfdQwt812ubPjv+WYfxyVNDHcR8avzHNB4nk+PJOOWbDKxLafOQOsA5kH6TSs1lze2LaZgFQ7JoDcnFk+H7huQNKXRDclO3xusptXPyQnZ56EuuGkU7Jce/bErGH2lK2jQ+/Jj823DQwU+v34NOqufBHQxGaaUJbb2sKE1EfPdg7N+pNkhAI/lz/vns6oYszmZH118W5OTybH4zJZ9Bg2UBCjm5IGvmCISAYbMQvwaCdbDBf/DJkZJtlGGCYLcRgePBgxEyWZSeSP0X1JQRY0nBlOTSVI4gPR4KFGhZVorVnJIzh4XCZ70i3pAvcR1QaullI+zmkszBlUY7INxoz6QOJezfubWxPtSp5hEjNvltt5NRMmZ8ODmiec6PhkM+OBrTIf5l+fA4FjmndNx/4b3b3WH9sLh1g6ysqco24LK7P5bRdBm9QLWMesuG/VqfiwEdCwbjhIby0ZHI8lH8iQpgTCQ5q82RD1yHb7Tf3cmixEbsKlrZFbb9vsCF9BZSLMNay+8VhLjvIYKbSuMVVwBzONWvfTz87qjfHfUfO+p9e/UNt1+3V88lKOFeuQ67pQoF8uwhba7HZ4u1VZLbVrn/BP1l2zUe0fr3gXbs/+ZL9Ns/PWO38YANAAA=</values>
@@ -432,16 +408,16 @@
         <display_text/>
         <flow display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</flow>
         <generation_source/>
-        <order>12</order>
+        <order>10</order>
         <parent_ui_id>f3410bad-d5dc-412f-a97a-a8808efea457</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-27 08:14:48</sys_created_on>
         <sys_id>9a1177ca835e83106dbf6170deaad3ec</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:34:14</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:49:37</sys_updated_on>
         <ui_id>c89347cb-131b-4438-8440-21f2574271ef</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPECWEoMDbBEKq1LVSO/WlqyzHdoo1x8lsp20W8d93nTiAaNW1Ei/VeML3y+cc7sH3LRIMLdGMszBaRHMaR3E8DcNpOouyeZxFUxYTziM0RooUHCo1p6VmcH4isnaBtl1pTixnOAporTVXdreDPBOmkqS582UQoVshGeTR8v5hjCqiYaLlGi3bk9RHIUmScQmlNwOmU4y2qdyZlbQuABcWQ/DSd659ZnSxhgw0OThROEb8xXLFOADJiTR8jAqiGLGlbtDS6hoCQJpdK9nsK7ZC2Z5oQV6M+AM3z0JXl3NgRr0I+yP2AvXhfE0suYXJ1NZ6r1cpKDe9JoznpJZ2dRzrC64rK0rVt1iSyaG7lHWhrnpF0H7A0e9RGwDBK8fTIe9p5bfb8vlmALkRqpPEU5QlJXJ/ItZqkdXWwWkRl7zTuCBVJdQjrnT5JLpmgFIEjxIOQS7LZ7jTiEcVEOpwB6AqCTYQX3fhO6KFI/EdxkDzboxMY1aSGHOgAhri37VD0hPzFHCnQicB7jbBNVMtKvsNrnriHvhu7Jc+S97bMLo4LNTRzMPiv+AojRfJIsW0ybg2OOy/YMPBB8I2WCgqOm1fuWHlCke3vnB0cSj8nEk+QGEwyY9uNd6m5H3yKnZ53Du66hPeJcnZXJJ+JZd4Gl/eJv8yRzh99+/3aJM6P5gjYzyX+hdWJRD+WYdhzNo2YSmbJxGZpIxlkxll4WRBpskkTWmUsJzm2XwR2K17R7CxxNbmrSfkbHM/57EPKDF4bCO4ZOYNaQaD8QIIWY57qU5M5pOjO5/cP0dnc1o0D7vPF/Lbf/MqPfwFWsoctIwJAAA=</values>
@@ -462,10 +438,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-03 01:51:16</sys_created_on>
         <sys_id>a32a2cf6472007102124b5f4316d43df</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:34:14</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:49:37</sys_updated_on>
         <ui_id>9638ac49-0ffc-44c2-8042-8bf451dfc008</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/5VSy27bMBD8F55lQbIlWfWtsBGgQNsASZpLEAhrcmUToCiFDyeu4H/vUpKdNMmhPe7sLHdmlg89k4KtWF5m9XwBkC3nKV+m2TydZ9u8zhZpIbJFWbCIaWiQmAItN7JzstUEHkD5gPb92iA4FFUac28Mahe/YZ5OxBXSdgqO9/8xwvdSCeqw1cNjxDowpMGhYav+XetfTSjYoiLq5i8Xn1pzxy6A1hmpd1P9fRq/PYOtEUFOGjF8cagFko4alMWINaAFuNYcLwjZFddavQJ7qR29xgL5xcrftK9MkiQwayRvHMfupaymDEe43oADkuK582ai8n0rOdoxFYE1eOXWb7GRcD26HEYcbNV5ulW+0T/HONjlgfPJCPGWRGAXrAbtk5H6dt8+35xVXkk9pDI1VctBXSpwlN3Wu6CnZ17evYt5RD4EjQob2lg10HWEVJ1pD3LYQqKbeKeoiGvVPpM6K3c6Bh4cxnQCiK8I3wzwPRgZ7P6gZ2g4rPul5ZPHb+EDAQhMkjqfLfMinWWlKGcAeTKDnBd5XiRfFnnKThGzR7tWYO1rUHSh6skHm2NsU0DVmHEYGX7WVxJ1wCmL0+MffrbDcH4DAAA=</values>
@@ -486,44 +462,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-26 20:43:03</sys_created_on>
         <sys_id>ddc29d06835a43106dbf6170deaad319</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:34:14</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:49:37</sys_updated_on>
         <ui_id>6add698e-997e-4ba1-877e-647eaa478a06</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXU/bMBT9K5GfsyppWFb6hooqVWIgwcYLpZFj37QWjp3ZDtBV/e+7jtNSMaoxaS9I65vP/fA5p9c3dxsiOBmTPIXk82masyzNsmGSDEcnaZlnZTrkGQU4ITFRtAbMdLSUUHSHmDxS2QbQPuCRC9tIur7t0W8BZSshuQFFxnf3MWmowVoHhow3r0LvZSJpCbLrj1SOMHPr5k3s4rA2ugwBbbjnk8QEnh0oDkikotJCTGqqOHXarMnYmRYBA5RfKbneZ6yEctiQ+NxnK37itaPE51WAyhiE2P5Y9CYFuDqnjt5gZ+Za06eylRYMbPCEQ0Vb6SaHWEi4apzQKpR0MvtqLdtaXQZLyL7B7j9BpLVIAhqv0zPvZVQ3K/10vWM5FaqzpA9Kzajcn6hzRpSt83w2BCTU2KioadMItSwaox9FV4xc6sFS4mFQSf2El1qxVAPKPPEB2koHU8TPO/iWGuFVfMU2WLyNiV3biaTWvmhBE4sfrWcSlPUaimCDL2FGNO4ML3iEnu423o04h+T06GCl5csgdVNtD8bbrrRxnn7XHsnP2yTJ+MxqSR1Ek1nkgWEeXWj2EH23YKIzxnSrXPQpOptFM4VT5aKppMsl8EVjhDbCrUOXdIEa0YDOxKXRbRPwzXz3nuZkPCczxYQXG12DbbSyMCfxPDDs4hUfJiNOYZQlXmKS87LK0y8JB0p5VtEuHS0tBH9n/naBbxVv7OlsJjj6DniRDlhrfGC7/f3N/7fquFV/uQj/PK+7RTgVILl9Y4B3WxDqxttfhIF+tQn7YHTbB/ttmP6rbZjmSff7QDsxiPvwK/Hg63dkOd7/ArytzC8BCAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ddc29d06835a43106dbf6170deaad319"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=38c0a934472043502124b5f4316d435d"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=38c0a934472043502124b5f4316d435d^sys_idNOT IN026ba792831247106dbf6170deaad3ff,2281dd02835a43106dbf6170deaad3e5,838033ce83de83106dbf6170deaad308,f79395c6835a43106dbf6170deaad308"/>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">9b2ca356831247106dbf6170deaad3ff</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Gemini Incident Triage">38c0a934472043502124b5f4316d435d</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>8</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-07-28 02:28:25</sys_created_on>
-        <sys_id>026ba792831247106dbf6170deaad3ff</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:46</sys_updated_on>
-        <ui_id>8d8a0d1b-576a-49ae-aa4c-c69ef4d2b55c</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1UXWvbMBT9K0HPxthOE9a8lWyFwNqMJRTGKEKWrhMxWfIkOWkW8t935Y80tAkLY497s879OufqyHtial/V3i3NnXNypcnk+3NEpA4Yfu+JFGRCioQV6S1P+TAbD7MkyT7cpPl4mKeZGDJgQxIRzUrATG60kF4aTRsgIhum6hCYFYPpbCDdoLLgQHsMCekqxXZPlzP4WiphoWNVMYs9PVgy2b8J+V0FVLEcFDZaeCv1Csuv5d4XTnvyg88NcllVmIe46ycZKwKtNIkIvHjQAnB0wZSDiJRMC+aN3R0RC0zMtXoF1hLlTggJyS9O/sLe2WgUEgtAjRza4PFIu9W1MF8byWFeBYIt4lmuuhpuVF3qx1ZHWDoUrFa+XzoitcN+UAXSgUVHqViszfZrP/Be6kZgF1SGM3U8MY9ryGsPLlwMKCixES1ZVeFyaGXNRjbFyKWMVwoPcaHMFocGx8WMB+Ix7ojF94h/bOAnZmVQ8YBtsLilmTMnOW3cie28RQmHZi30Zx0ItQI7KbTdBiY4bmXl73DOBjrWh6iz9i0bFaM0GZ23x834jAlOXL3fT/EyPQiaxry2uCsf81LklMvDYbZ4nC8/PXxZfntv9usL/8UbuELkuzdwXvgF42d/MH64qit9nyTJf+OfGl862hq409YM/2vfPwfzthNc6xsBXDoksgzYrP/zh8AODSD5KbQ19keQ8IodfgPouxBOQwYAAA==</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=38c0a934472043502124b5f4316d435d^sys_idNOT IN2281dd02835a43106dbf6170deaad3e5,838033ce83de83106dbf6170deaad308,f79395c6835a43106dbf6170deaad308"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">fd84118a835a43106dbf6170deaad3b2</block>
@@ -542,10 +491,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-26 20:37:40</sys_created_on>
         <sys_id>2281dd02835a43106dbf6170deaad3e5</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:46</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:02</sys_updated_on>
         <ui_id>87d0897a-c116-445c-860f-35e729bb22db</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXWvbMBT9K0HPjpG/QpK3sFIIrCuspS9bMdeylIjJkmfJabOQ/74rf6RhTVkZfdxLiM79OufmXHIgpnV16+y9WVkrN5osvz0GRGqP4fcD0VBxsiTM6FI6aXTeAQHZgWp9YLWeXHHHmbOTG1CSSdPayVo7rh1mldLWCvYP70pmW6nKhg8camhwkuMNWR7+CLl9zXMFBVfY8841Um+wXJb4EhREtGARS+JZElMaz9OomCVFFJcJcEgwbyz8NEqafO6Q4E2tfh7idpxkmtLTimhA+DOSLzmOFqAsD0gFugRnmv0JaTiUt1q9AFuJcpeE+ORnK39h7zjLfKLgqJHxPnh65sMWe5htjWT8tvYEe8RBoYYaZlRb6S+9Dr9/LqBVbtw/Iq3Ffrz2pD2LgZK425qnr+PAa6k7gUNQGQbq9AKHayhax63/YbjiFTbKK6hrXE5eN2Ynu2LkUoUbhY9QKPOEQ72/QmCeeIg7gvAa8asOfoBGehU32AaLe5oFWMnyzovYzjUo4ditJf/ZekK9wEFK3m8DEyxrZO1WOGfHB9bH4LWRzzx8OCxmyRxYuphSIdg0TVk8ndMUPwqRZlEpGKXzsBoti5y8ZXOhYHM8fm8pTcqO3ivDf2Dnj7iOBWQii2h2+TrS2aXruHAXb59E/JeT8FreeRGU0v8ncX4S0ua9tQdt3fB/vohHb/9+gu19U3ImLRK599h6/AfwgT0aQLJz6Mk0P7yEF+z4G7Q7jVNLBgAA</values>
@@ -562,17 +511,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>10</order>
+        <order>8</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-27 08:12:23</sys_created_on>
         <sys_id>838033ce83de83106dbf6170deaad308</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:46</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:02</sys_updated_on>
         <ui_id>f3410bad-d5dc-412f-a97a-a8808efea457</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1UXWvbMBT9K0HPxthOE9a8la6FQNuMJiuMUowsXydisqTpI2kW8t935Y80rCntxh73Zp37dc69B++I8k57Zxfqwlq+lGTy+BQRLgOG3zsiaQ1kQpiSJXdcybwBIrKmwofAtBrMvdWcceXt4Ov9zYDbgTZgQTpMK7nVgm4fPpbNVlyUBjoWmhqc5cCQye63kNtqyAUtQGDTuTNcLrGcl/iqElql5yxlw2w8zJIk+3SWFuNhkWblkAIdYl5feNmLGtw0SPSm2jAPcdtPUqYMtNIkIvDsQJaAoysqLESkprKkTpntATFAy5kUL8CKo9wJISH52fKf2DsbjUJiBaiRQRs8PPNujS3MVoozmOlAsEUcLURXw5TwtbxrdYQDQEW9cP0BEPEW+4EOpAOLjlI1X6nNfT/wmstGYBcUilFxeFGHayi8AxsOAwJqbJTXVGtcTq6NWvOmGLnU8VLgI66E2uDQ4LCYskA8xh3R+Brxzw38QA0PKm6xDRa3NAtqOcsbN2I7Z1DCvllL/sMHQq3ATkrebgMTLDNcuwucs4aO9T56beUjF+92l3gkB2Wexswb3IGL7cGouTdiv5/O72aLq9svi2+vff3H9f/C6ed0VI3SZHTa6WfjU04/4fG37Z29Y+9wkA+6O0mS//Y+tje3eWvTTlsz/K/d/RSs3E6wrW9KYNwikUXApv3/PAS2aADOjqGNMt+DhBds/wt9finqGQYAAA==</values>
@@ -596,10 +545,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-26 20:46:46</sys_created_on>
         <sys_id>f79395c6835a43106dbf6170deaad308</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:46</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:02</sys_updated_on>
         <ui_id>689b8f0d-e7da-4a1a-869f-268e9f53712b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -686,7 +635,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>gemini_incident_triage</internal_name>
-        <label_cache>[{"name":"5d8d651a-8ddb-4cd0-9a25-88c15dfcfb69.threat_status","label":"11 - Check With Virus Total➛Threat Status","reference_display":"Threat Status","type":"string","base_type":"string","usedInstances":{"c89347cb-131b-4438-8440-21f2574271ef":["work_notes"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6504827e-0e54-4e41-b401-0c917a4621ba"}},{"name":"Created_1.current.suspicious_url","label":"Trigger - Record Created➛Cyber Security Incident Record➛Suspicious URL","reference":"","reference_display":"Suspicious URL","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"suspicious_url","usedInstances":{"84cb21e1-81b5-45f8-a814-f07a32c30093":["condition"],"f3410bad-d5dc-412f-a97a-a8808efea457":["condition"],"5d8d651a-8ddb-4cd0-9a25-88c15dfcfb69":["url"]}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.malicious_intent_flag","label":"1 - Analyze Incident with Gemini➛Malicious Intent Flag","reference_display":"Malicious Intent Flag","type":"string","base_type":"string","usedInstances":{"87d0897a-c116-445c-860f-35e729bb22db":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"bd12ea84-dca4-4a28-adff-5a1e43423c94"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.countermeasure","label":"1 - Analyze Incident with Gemini➛Countermeasure","reference_display":"Countermeasure","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["mitre_technique_id"],"10c602d7-8e3b-434b-951e-383024a7bbff":["mitre_technique_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"451281f5-5bbf-4a61-83ea-68580a0763fc"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.summary","label":"1 - Analyze Incident with Gemini➛Summary","reference_display":"Summary","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["work_notes"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f85451b5-50da-40aa-8507-adb2c3f25ac7"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.short_description","label":"1 - Analyze Incident with Gemini➛Short Description","reference_display":"Short Description","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["short_description"],"10c602d7-8e3b-434b-951e-383024a7bbff":["short_description"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"694848fb-74a4-483f-9a68-5ec3ef53f9b9"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.__action_status__.message","label":"1 - Analyze Incident with Gemini➛Action Status➛Message","reference":"","reference_display":"Message","type":"string","base_type":"string","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{}},{"name":"Created_1.current.cmdb_ci","label":"Trigger - Record Created➛Cyber Security Incident Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"cmdb_ci","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["record"],"8d8a0d1b-576a-49ae-aa4c-c69ef4d2b55c":["condition"]}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Cyber Security Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"number","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_subject"]}},{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Cyber Security Incident Record➛Opened By","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"opened_by","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_to"]}},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Cyber Security Incident Record➛Short Description","reference":"","reference_display":"Short Description","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"short_description","usedInstances":{"9638ac49-0ffc-44c2-8042-8bf451dfc008":["short_description"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Cyber Security Incident Record","reference":"x_1839598_cybers_0_cyber_security_incident","reference_display":"Cyber Security Incident","type":"reference","base_type":"reference","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["record"],"689b4add-0488-4938-a9be-665ab75b1d56":["record"],"10c602d7-8e3b-434b-951e-383024a7bbff":["record"],"6add698e-997e-4ba1-877e-647eaa478a06":["parent"],"c89347cb-131b-4438-8440-21f2574271ef":["record"]},"attributes":{}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.gemini_analysis","label":"1 - Analyze Incident with Gemini➛Gemini Analysis","reference_display":"Gemini Analysis","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["work_notes"],"689b4add-0488-4938-a9be-665ab75b1d56":[null],"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c1cd7ea1-7d83-47c3-becc-bd55241dc477"}},{"name":"Created_1.current.description","label":"Trigger - Record Created➛Cyber Security Incident Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"description","usedInstances":{"9638ac49-0ffc-44c2-8042-8bf451dfc008":["description"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.description","label":"Trigger - Record Created➛Cyber Security Incident Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"description","usedInstances":{"9638ac49-0ffc-44c2-8042-8bf451dfc008":["description"]}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.gemini_analysis","label":"1 - Analyze Incident with Gemini➛Gemini Analysis","reference_display":"Gemini Analysis","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["work_notes"],"689b4add-0488-4938-a9be-665ab75b1d56":[null],"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c1cd7ea1-7d83-47c3-becc-bd55241dc477"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Cyber Security Incident Record","reference":"x_1839598_cybers_0_cyber_security_incident","reference_display":"Cyber Security Incident","type":"reference","base_type":"reference","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["record"],"689b4add-0488-4938-a9be-665ab75b1d56":["record"],"10c602d7-8e3b-434b-951e-383024a7bbff":["record"],"6add698e-997e-4ba1-877e-647eaa478a06":["parent"],"c89347cb-131b-4438-8440-21f2574271ef":["record"]},"attributes":{}},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Cyber Security Incident Record➛Short Description","reference":"","reference_display":"Short Description","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"short_description","usedInstances":{"9638ac49-0ffc-44c2-8042-8bf451dfc008":["short_description"]}},{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Cyber Security Incident Record➛Opened By","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"opened_by","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_to"]}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Cyber Security Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"number","usedInstances":{"689b4add-0488-4938-a9be-665ab75b1d56":["ah_subject"]}},{"name":"Created_1.current.cmdb_ci","label":"Trigger - Record Created➛Cyber Security Incident Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"cmdb_ci","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["record"],"8d8a0d1b-576a-49ae-aa4c-c69ef4d2b55c":["condition"]}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.__action_status__.message","label":"1 - Analyze Incident with Gemini➛Action Status➛Message","reference":"","reference_display":"Message","type":"string","base_type":"string","usedInstances":{"f924e224-d93f-47bc-b77c-6f3d3aafc1a5":["comments"]},"attributes":{}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.short_description","label":"1 - Analyze Incident with Gemini➛Short Description","reference_display":"Short Description","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["short_description"],"10c602d7-8e3b-434b-951e-383024a7bbff":["short_description"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"694848fb-74a4-483f-9a68-5ec3ef53f9b9"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.summary","label":"1 - Analyze Incident with Gemini➛Summary","reference_display":"Summary","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["work_notes"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f85451b5-50da-40aa-8507-adb2c3f25ac7"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.countermeasure","label":"1 - Analyze Incident with Gemini➛Countermeasure","reference_display":"Countermeasure","type":"string","base_type":"string","usedInstances":{"3086303a-246d-4007-9816-bd100397531f":["mitre_technique_id"],"10c602d7-8e3b-434b-951e-383024a7bbff":["mitre_technique_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"451281f5-5bbf-4a61-83ea-68580a0763fc"}},{"name":"9638ac49-0ffc-44c2-8042-8bf451dfc008.malicious_intent_flag","label":"1 - Analyze Incident with Gemini➛Malicious Intent Flag","reference_display":"Malicious Intent Flag","type":"string","base_type":"string","usedInstances":{"87d0897a-c116-445c-860f-35e729bb22db":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"bd12ea84-dca4-4a28-adff-5a1e43423c94"}},{"name":"Created_1.current.suspicious_url","label":"Trigger - Record Created➛Cyber Security Incident Record➛Suspicious URL","reference":"","reference_display":"Suspicious URL","type":"string","base_type":"string","parent_table_name":"x_1839598_cybers_0_cyber_security_incident","column_name":"suspicious_url","usedInstances":{"84cb21e1-81b5-45f8-a814-f07a32c30093":["condition"],"f3410bad-d5dc-412f-a97a-a8808efea457":["condition"],"5d8d651a-8ddb-4cd0-9a25-88c15dfcfb69":["url"]}},{"name":"5d8d651a-8ddb-4cd0-9a25-88c15dfcfb69.threat_status","label":"9 - Check With Virus Total➛Threat Status","reference_display":"Threat Status","type":"string","base_type":"string","usedInstances":{"c89347cb-131b-4438-8440-21f2574271ef":["work_notes"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6504827e-0e54-4e41-b401-0c917a4621ba"}}]</label_cache>
         <master>true</master>
         <name>Gemini Incident Triage</name>
         <natlang/>
@@ -703,7 +652,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5c1dac7e472007102124b5f4316d43d6</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -711,7 +660,7 @@
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:49</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:05</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -795,14 +744,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-03 02:03:53</sys_created_on>
         <sys_id>501dac7e472007102124b5f4316d43ec</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:48</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -879,14 +828,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-03 02:03:53</sys_created_on>
         <sys_id>941dac7e472007102124b5f4316d43d9</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:48</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -924,7 +873,7 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=5c1dac7e472007102124b5f4316d43d6^sys_idNOT IN31f1fbc28312c3106dbf6170deaad3bf,37e3cd3047b047502124b5f4316d4308,5c1dac7e472007102124b5f4316d43fd,73e3cd3047b047502124b5f4316d430a,8e84518a835a43106dbf6170deaad3c0,981dac7e472007102124b5f4316d43ff,c284518a835a43106dbf6170deaad3bf,f1f1fbc28312c3106dbf6170deaad3bd"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=5c1dac7e472007102124b5f4316d43d6^sys_idNOT IN31f1fbc28312c3106dbf6170deaad3bf,37e3cd3047b047502124b5f4316d4308,5c1dac7e472007102124b5f4316d43fd,8e84518a835a43106dbf6170deaad3c0,981dac7e472007102124b5f4316d43ff,c284518a835a43106dbf6170deaad3bf,f1f1fbc28312c3106dbf6170deaad3bd"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -934,16 +883,16 @@
         <display_text/>
         <flow display_value="Gemini Incident Triage">5c1dac7e472007102124b5f4316d43d6</flow>
         <generation_source/>
-        <order>12</order>
+        <order>10</order>
         <parent_ui_id>f3410bad-d5dc-412f-a97a-a8808efea457</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-27 08:18:35</sys_created_on>
         <sys_id>31f1fbc28312c3106dbf6170deaad3bf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:49</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:05</sys_updated_on>
         <ui_id>c89347cb-131b-4438-8440-21f2574271ef</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPECWEoMDbBEKq1LVSO/WlqyzHdoo1x8lsp20W8d93nTiAaNW1Ei/VeML3y+cc7sH3LRIMLdGMszBaRHMaR3E8DcNpOouyeZxFUxYTziM0RooUHCo1p6VmcH4isnaBtl1pTixnOAporTVXdreDPBOmkqS582UQoVshGeTR8v5hjCqiYaLlGi3bk9RHIUmScQmlNwOmU4y2qdyZlbQuABcWQ/DSd659ZnSxhgw0OThROEb8xXLFOADJiTR8jAqiGLGlbtDS6hoCQJpdK9nsK7ZC2Z5oQV6M+AM3z0JXl3NgRr0I+yP2AvXhfE0suYXJ1NZ6r1cpKDe9JoznpJZ2dRzrC64rK0rVt1iSyaG7lHWhrnpF0H7A0e9RGwDBK8fTIe9p5bfb8vlmALkRqpPEU5QlJXJ/ItZqkdXWwWkRl7zTuCBVJdQjrnT5JLpmgFIEjxIOQS7LZ7jTiEcVEOpwB6AqCTYQX3fhO6KFI/EdxkDzboxMY1aSGHOgAhri37VD0hPzFHCnQicB7jbBNVMtKvsNrnriHvhu7Jc+S97bMLo4LNTRzMPiv+AojRfJIsW0ybg2OOy/YMPBB8I2WCgqOm1fuWHlCke3vnB0cSj8nEk+QGEwyY9uNd6m5H3yKnZ53Du66hPeJcnZXJJ+JZd4Gl/eJv8yRzh99+/3aJM6P5gjYzyX+hdWJRD+WYdhzNo2YSmbJxGZpIxlkxll4WRBpskkTWmUsJzm2XwR2K17R7CxxNbmrSfkbHM/57EPKDF4bCO4ZOYNaQaD8QIIWY57qU5M5pOjO5/cP0dnc1o0D7vPF/Lbf/MqPfwFWsoctIwJAAA=</values>
@@ -997,30 +946,6 @@
         <values>H4sIAAAAAAAA/5VSy27bMBD8F55lQbIlWfWtsBGgQNsASZpLEAhrcmUToCiFDyeu4H/vUpKdNMmhPe7sLHdmlg89k4KtWF5m9XwBkC3nKV+m2TydZ9u8zhZpIbJFWbCIaWiQmAItN7JzstUEHkD5gPb92iA4FFUac28Mahe/YZ5OxBXSdgqO9/8xwvdSCeqw1cNjxDowpMGhYav+XetfTSjYoiLq5i8Xn1pzxy6A1hmpd1P9fRq/PYOtEUFOGjF8cagFko4alMWINaAFuNYcLwjZFddavQJ7qR29xgL5xcrftK9MkiQwayRvHMfupaymDEe43oADkuK582ai8n0rOdoxFYE1eOXWb7GRcD26HEYcbNV5ulW+0T/HONjlgfPJCPGWRGAXrAbtk5H6dt8+35xVXkk9pDI1VctBXSpwlN3Wu6CnZ17evYt5RD4EjQob2lg10HWEVJ1pD3LYQqKbeKeoiGvVPpM6K3c6Bh4cxnQCiK8I3wzwPRgZ7P6gZ2g4rPul5ZPHb+EDAQhMkjqfLfMinWWlKGcAeTKDnBd5XiRfFnnKThGzR7tWYO1rUHSh6skHm2NsU0DVmHEYGX7WVxJ1wCmL0+MffrbDcH4DAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5c1dac7e472007102124b5f4316d43fd"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Gemini Incident Triage">5c1dac7e472007102124b5f4316d43d6</flow>
-        <generation_source/>
-        <order>9</order>
-        <parent_ui_id>8d8a0d1b-576a-49ae-aa4c-c69ef4d2b55c</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-09 08:51:38</sys_created_on>
-        <sys_id>73e3cd3047b047502124b5f4316d430a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:49</sys_updated_on>
-        <ui_id>f924e224-d93f-47bc-b77c-6f3d3aafc1a5</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+VVXWvbMBT9K0HPiZFjNyR5GwmFQddCO/rSdeZaklOBLHuS3DYz+e+7suU0tKVLoXsoy4PhfknnHJ8b37REcrIkqeA0XsQzlsRJMqV0Ok/jfJbk8ZQnIERMxkRDKbDTCFYZjvE9qMYn2nZlBDjBszhijTFCu4iVPM+Y3O2wj0tbK9heh3bMsDupOPaR5c3tmNRg8GQnDFm2z0rHQlOQC4WtlwO251jdtvYxr1hTIr5MDsmzMLkOldHXNVZwyMOJ6ZiIRyc0FwikAGXFmJSgObjKbMnSmQYTSJ5faLXdd9xJ7XqiJTxa+RtvTqnvKwQyY0GEfZgFgfp0sQYHV3gyc43Z61VJJmyvCRcFNMqtDnN9w0XtZKX7EQe5GqYr1ZT6vFeE7A84eB+NRRCi9jw98p5WcXVXPVwOIE+l7iQJFFXFQO0jcM7IvHEeTkuEEp3GJdS11JusNtW97IYRShltFAZRoaoHvNPKjY6AedwRqgrRKebXXfoajPQkvuExOLwbE7u1KwXWPlFBDbNfjUfSEwsUsk6FToKsc4IfZkbW7gtedS8C8N04mD8/ecthbPFkqIMznxYgmP2l1VeVLuSmMeD5jaQT5bvNfwS0wfzfu1f+OtTg/xe5s8PZ0XlfCO4/+TD3zz+T+wONT2//v5meTt/8Wz1wUudze2B4qa0DpTJ8usb+aChNePIT2XniIW7bxSyZA0sXE1oUbJKmbDqZ0xQfeZGexLxglM6jjSillhloUFsr7WsfjH982/v28QjVhn08lUJx+4qMwzKKEmk6kfWyPlvIUBxdh+L+k/RhWxnPaPf7RLv533yZbv8AEeMI3pgJAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=73e3cd3047b047502124b5f4316d430a"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -1102,23 +1027,23 @@
         <display_text/>
         <flow display_value="Gemini Incident Triage">5c1dac7e472007102124b5f4316d43d6</flow>
         <generation_source/>
-        <order>11</order>
+        <order>9</order>
         <parent_ui_id>f3410bad-d5dc-412f-a97a-a8808efea457</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-27 08:18:35</sys_created_on>
         <sys_id>f1f1fbc28312c3106dbf6170deaad3bd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:49</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:05</sys_updated_on>
         <ui_id>5d8d651a-8ddb-4cd0-9a25-88c15dfcfb69</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/5VSy27bMBD8F55lQapdW/KtcBCgQNoASZNLEAgrcmUToEiGDyeu4H/v0pLdwr20x52d5c7M8mVgUrA161YVYldANRdYzctiKdpuWa4KgQBijhXLmIYeiRmdomIPKqZqGDYOIaBoypxH51CH3EdvJZcm+obIxyPRhfRWweH5/6b4TipBTbZ+ec2YBUcKAjq2Hq5a/2pBQYuKqE8Pd9eGwsGmwgcn9Xaq7yb64xk0TqT1ZcbwI6AWSHs7UB4z1oMWEIw7sHVwkQAyKO61OlwYO6kDPcYS98PLn7SuKooiMTskKxzH7qVsptRGuLuBAKQk8hDdROU7Izn6MQSBHUQVNn9iI+HeBmn0OBKgVedpo2Kvv48psMsD5yMREj2JQJucJu2Tke5xZ94fzipvpT6FMjWV4aAuFQSKro0h6RlYlD+uUh6Rv3JGhT1tbHqwlpDGOrOXpy0kus+3ioq8U+ad1Hm51Tnw5DCnC0B+S/jNCX4GJ5Pdb/QMDad1T1q+Rfya/su8ritY4HK24LWYLT6Xi1ktKpyVLUcOBa54/YkdM+YPfqPA+99B0YWat5hsjrFNATVjxmmEO2nDFxK1xymL4+svm2UQCGsDAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f1f1fbc28312c3106dbf6170deaad3bd"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=5c1dac7e472007102124b5f4316d43d6"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5c1dac7e472007102124b5f4316d43d6^sys_idNOT IN0684518a835a43106dbf6170deaad3c3,0a84518a835a43106dbf6170deaad3c5,332c2756831247106dbf6170deaad346,b5f1fbc28312c3106dbf6170deaad3c6"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5c1dac7e472007102124b5f4316d43d6^sys_idNOT IN0684518a835a43106dbf6170deaad3c3,0a84518a835a43106dbf6170deaad3c5,b5f1fbc28312c3106dbf6170deaad3c6"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">fd84118a835a43106dbf6170deaad3b2</block>
@@ -1137,10 +1062,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-26 20:50:45</sys_created_on>
         <sys_id>0684518a835a43106dbf6170deaad3c3</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:48</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:05</sys_updated_on>
         <ui_id>87d0897a-c116-445c-860f-35e729bb22db</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXW/aMBT9K8jPIXI+QMAbAlVCaldprfqyVdGNY4M1J85iB8oQ/33X+QDUMq3V+rgXhM+9vvecg484EF3bsrbmUc+NkeuCzL49e0QWDsPvB1JAzsmMMF1k0kpdJA3gkS2o2hXmq8GSW86sGdyBkkzq2gxWheWFxa5MmlLB/uldzWwjVVbxjkMJFW6yvCKzw6uSzHCWoCCCKQtYFI6jkNJwEgfpOEqDMIuAQ4QDFaRcYeuiJz+4bRDvj6rsvnS4sZUs1t35tpvy0IO6yhyrgHqEvyD3jCMfAcpwj+RQZGB1tT8hFYfsvlBnYCNR7YwQ1/xi5C9cGI5GrlFwlMh4Wzwdk87EFhZLsIBUambrqmtlGy0ZN605GRdQK7u4xNqG+9JJba9YSFV/W6s6L760jpDTgP43Q6Q2SIKXTqmj3ukQDxu9+9qzvJFF40pXVJqBOp3AondpbR2fA+GK5zgoyaEs0dGkrPRWNpeRS+6vFR58ofQOl7o36QNzxH00FvwbxJcN/ASVdCrucAxebmmmYCRLmveL49AmTo4eMXuzUGDMWSS6m/ysHcVWcicuaf1xV1glSzvHzVve6Th6b+NwkYTDYTqOJsDi6ZAKwYZxzMLhhMb4kYp4FGSCUTrx8/7hI0v38BOhYH08fq8pjbKG8JvYfOLkj2VsCiMxCujoesbi8bWMXUnXB4MV/iVYTso7c0Up/R+sfw6WNEkbh05bs/wTc/XsQtTuPHnNpEFqjw5b9f9GrrDHxyXZJbTT1Q8n6owdfwMfw5dt1wYAAA==</values>
@@ -1164,40 +1089,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-26 20:50:45</sys_created_on>
         <sys_id>0a84518a835a43106dbf6170deaad3c5</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:49</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:05</sys_updated_on>
         <ui_id>689b8f0d-e7da-4a1a-869f-268e9f53712b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">9b2ca356831247106dbf6170deaad3ff</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Gemini Incident Triage">5c1dac7e472007102124b5f4316d43d6</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>8</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-07-28 02:31:48</sys_created_on>
-        <sys_id>332c2756831247106dbf6170deaad346</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:49</sys_updated_on>
-        <ui_id>8d8a0d1b-576a-49ae-aa4c-c69ef4d2b55c</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0HPxthOE9a8lXSFQNuMJRTGKOZakhMxWfIkOWlm8t935Y8ktClL2R73Fp17r3TO8T2kJrpyZeXsUt9YK1aKTL4/B0Qoj+HvmghGJiSPII+vaUyHyXiYRFHy6SrOxsMsTtgQOAxJQBQUHDupVkw4oVXaAAHZgKx8YZYPprOBsIPScMuVwxITtpSwe3q/g66FZIZ3rEoweKfjhkzqV6VLWUrIuMTWaU9zcN8g7/N3u9Lj1hmhVt35vrtl0YPaMM8qjgLCXxxXjCOfHKTlASlAMXDa7A6I4cDmSh6BtUC1E0J884sVv/DBZDTyjTlHiZS3xcMx7Zxr4fwWHCCVirrKdK10rQXltjWH8Rwq6aanWNswL73UdsRBJvtpLatCPbaOkMMF/YdCpLJIgpdeqafe6cgXa7392rO8E6pxpStKTUEeTuDQu6xynk9NuOQFXpQWUJboaFoavRHNMHIpwpXEQ5hLvcVH/ZaGQD3xEI2F8A7x2wZ+AiO8ige8BodbmhlYQdNmo/E6tImTfUDszk4lWHsUie6mPytPsZXciUtbf/wINaJ0N/jyhnc69kEXkGsY5aM4Gp1fvavxmQU7yUZdT3EnHGdpHNLKoHsupAXLUir2+9nicb78/PBl+e1tZC4f/FiSLpDzJknnJX4kPskf4uO/3YXpiaLof3z+Oj7Cpu3Sd9qax/9hep59BNo3D15TYZHa0mOz/l/IF3a4XIKeQlttfnhRR2z/Gwl+HKvPBgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -1211,17 +1109,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>10</order>
+        <order>8</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-27 08:18:35</sys_created_on>
         <sys_id>b5f1fbc28312c3106dbf6170deaad3c6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:49</sys_updated_on>
+        <sys_updated_on>2026-07-31 06:46:05</sys_updated_on>
         <ui_id>f3410bad-d5dc-412f-a97a-a8808efea457</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VW2/aMBj9K8jPUZRAQStvFV0lJFqmwipNUxV9cRyw5sSeL7Qs4r/vc26glWlF2+Pe8PF3OefER1REOqucNWt5YwzflGT69TkgvPQY/q5ICQUjU0JlmXHLZZnUQEB2IJy/mOeDlTOKUy6dGXx+XAy4GSjNDCstlmXcKAH7p/dV0y0XmWYtCwUad1mmybT65YpnOCyPII+vaUxHw8loGEXDD1dxOhml8TAbAYMRDhSQMoGls47+YFEjwW912b3yuLGal5v2vGinrDpQ6syziqOAsFfLyowhnxyEYQEpoMzASr3vEc0gW5biCGw5qp0S4otfDf+BC4fjsS/MGUqkrLnsj0nrYgPnt2ABqThqnW5L6VZyykxjTsZycMLOTrGmYKm81KbFQiq6bilcUT40jpB+QPfREHEGSTDllXrqrY58tZUvjx3LO17WrrSXQlIQ/Qksepc66/lUhAlW4KCkAKXQ0URpueN1M3Ipwo3AQ5gL+YJL/asMgXriIRoL4R3itzX8BJp7Ffc4BpsbmikYTpP6BeM4tImRQ0DM3swEGHMUie4m352n2EhuxSWNP76Faq7sDW7esVbHIXgbiJMsVNUMv7VlWRKH1Gl0xYamf+6J0+JwmK8eluuP95/WX96m4+L+y/JyDeN8HEfj83m5mpzLy5mkXBiS4R9C4r/QOzMSRdH/kPx1SLhJmqfdaquX/8OMPPtANDt7ryk3SG3tsXn33+Iv9vi4OD2FXqT+5kUdscNPBLrVE6UGAAA=</values>
@@ -1305,18 +1203,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"dc1dec7e472007102124b5f4316d435d","name":"plan","plan_signature":null}}</plan>
         <plan_id>38c0a934472043502124b5f4316d435d</plan_id>
-        <snapshot>9fbc6b96831247106dbf6170deaad378</snapshot>
+        <snapshot>5081d4f183a243906dbf6170deaad3b5</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-03 02:03:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dc1dec7e472007102124b5f4316d435d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-28 02:31:50</sys_updated_on>
-        <trigger display_value="">943c6756831247106dbf6170deaad33d</trigger>
+        <sys_updated_on>2026-07-31 06:46:07</sys_updated_on>
+        <trigger display_value="">1223086783964f106dbf6170deaad3ae</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=38c0a934472043502124b5f4316d435d"/>
 </record_update>

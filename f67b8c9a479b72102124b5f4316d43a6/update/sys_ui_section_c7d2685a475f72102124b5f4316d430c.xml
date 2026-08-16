@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 15:34:43</sys_created_on>
-            <sys_id>b353702947f843102124b5f4316d4359</sys_id>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>bc76ed7e83520b106dbf6170deaad3f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 15:34:43</sys_updated_on>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>opened_by</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 15:34:43</sys_created_on>
-            <sys_id>3b53702947f843102124b5f4316d435a</sys_id>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>7876ed7e83520b106dbf6170deaad3f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 15:34:43</sys_updated_on>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>short_description</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 15:34:43</sys_created_on>
-            <sys_id>f353702947f843102124b5f4316d435b</sys_id>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>3476ed7e83520b106dbf6170deaad3f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 15:34:43</sys_updated_on>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>description</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 15:34:43</sys_created_on>
-            <sys_id>bf53702947f843102124b5f4316d435b</sys_id>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>fc76ed7e83520b106dbf6170deaad3f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 15:34:43</sys_updated_on>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>state</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 15:34:43</sys_created_on>
-            <sys_id>7b53702947f843102124b5f4316d435c</sys_id>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>b876ed7e83520b106dbf6170deaad3f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 15:34:43</sys_updated_on>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>impact</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 15:34:43</sys_created_on>
-            <sys_id>3753702947f843102124b5f4316d435d</sys_id>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>7476ed7e83520b106dbf6170deaad3f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 15:34:43</sys_updated_on>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>urgency</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 15:34:43</sys_created_on>
-            <sys_id>ff53702947f843102124b5f4316d435d</sys_id>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>3076ed7e83520b106dbf6170deaad3f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 15:34:43</sys_updated_on>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>priority</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 15:34:43</sys_created_on>
-            <sys_id>bb53702947f843102124b5f4316d435e</sys_id>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>f876ed7e83520b106dbf6170deaad3f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 15:34:43</sys_updated_on>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>category</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 15:34:43</sys_created_on>
-            <sys_id>7753702947f843102124b5f4316d435f</sys_id>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>b476ed7e83520b106dbf6170deaad3f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 15:34:43</sys_updated_on>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>assignment_group</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 15:34:43</sys_created_on>
-            <sys_id>3353702947f843102124b5f4316d4360</sys_id>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>7076ed7e83520b106dbf6170deaad3f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 15:34:43</sys_updated_on>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,27 @@
             <element>assigned_to</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 15:34:43</sys_created_on>
-            <sys_id>fb53702947f843102124b5f4316d4360</sys_id>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>3c76ed7e83520b106dbf6170deaad3f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 15:34:43</sys_updated_on>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-29 06:04:28</sys_created_on>
+            <sys_id>f476ed7e83520b106dbf6170deaad3fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1839598_cybers_0_cyber_security_incident" sys_domain="global" view="Default view">c7d2685a475f72102124b5f4316d430c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-29 06:04:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -13,7 +13,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a6e889af47173a102124b5f4316d4306</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>SOC Incident Overview</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cybersecurity Incident Management" source="x_1839598_cybers_0">f67b8c9a479b72102124b5f4316d43a6</sys_package>
@@ -21,7 +21,7 @@
         <sys_scope display_value="Cybersecurity Incident Management">f67b8c9a479b72102124b5f4316d43a6</sys_scope>
         <sys_update_name>par_dashboard_a6e889af47173a102124b5f4316d4306</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-20 07:29:33</sys_updated_on>
+        <sys_updated_on>2026-07-31 07:02:27</sys_updated_on>
         <sys_ux_app_config/>
         <sys_ux_app_route/>
         <sys_ux_macroponent/>
